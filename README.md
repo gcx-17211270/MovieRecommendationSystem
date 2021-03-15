@@ -27,7 +27,7 @@
 
 ## 3.本系统相关
 
-### 整体架构
+### 3.1 整体架构
 
 ![系统整体架构](img/系统整体架构.png)
 
@@ -41,7 +41,7 @@
 
 ![项目整体架构](img/项目整体架构.png)
 
-### Project的结构
+### 3.2 Project的结构
 
 - 整体使用Maven约定的目录结构
 
@@ -51,7 +51,7 @@
 4. pom.xml  ------- deploymentDescriptor Maven项目管理中使用的文件，用于记录文件信息和添加项目的相关依赖。目前添加的依赖内容：jUnit(测试类使用)、mysql(MySQL驱动文件)，Tomcat(Web容器)	
 5. 其他 test编写类的测试文件，编译结果将输出到recommend/target文件夹
 
-### 用户界面
+### 3.3 用户界面
 
 ![用户浏览界面](img/用户浏览界面.png)
 
@@ -74,3 +74,136 @@
 这里将会显示用户对所有已评价的电影内容信息，包括对电影的标签和评分
 
 ![用户浏览界面html](img/用户浏览界面html.png)用户浏览界面html
+
+左图是首页的内容。页面使用CSS盒模型，从上至下分为top，top1，main， footer四部分，内部又可以继续分层，对每层的样式分别绘制，可以增加页面的美观程度。
+
+其他页面内容在html文件夹下，样式组合与此类似。
+
+### 3.4 Ajax通信
+
+![Ajax通信](img/Ajax通信.png)
+
+Ajax(Asynchronous JavaScript and XML，异步JavaScript与XML)，是利用JavaScript脚本和XML或JSON数据实现客户端与服务器端之间异步通信的一种技术。
+
+Ajax 是一种在无需重新加载整个网页的情况下，能够更新部分网页的技术。通过在后台与服务器进行少量数据交换，Ajax 可以使网页实现异步更新。这意味着可以在不重新加载整个网页的情况下，对网页的某部分进行更新。传统的网页（不使用 Ajax）如果需要更新内容，必须重载整个网页页面。
+
+使用Ajax请求的五个步骤
+
+1. 创建一个XMLHttpRequest对象。定义创建函数，得到XMLHttpRequest实例对象
+2. 设置请求方式和请求地址。调用XMLHttpRequest对象的open()方法打开服务器端URL连接
+3. 用send发送请求。调用XMLHttpRequest对象的send()方法发送请求
+4. 监听状态变化。注册Onreadystatechange事件处理函数，准备接受响应数据
+5. 接受返回的数据。在事件处理函数中判断readyState属性，当返回值为4表示数据接收完毕，可以获得完整的响应数据。
+
+![使用Ajax通信](img/使用Ajax通信.png)
+XMLHttpRequest是JavaScript一个外挂组件，用来实现客户端与服务器异步通信，所有Ajax应用都要借助该组件才能够实现。
+创建XMLHttpRequest对象之后，就可以使用该对象的open()方法建立一个HTTP请求。
+
+open()方法用法如下：oXMLHttpRequest.open(bstrMethod, bstrUrl, varAsync, bstrUser, bstrPassword);
+参数分别为：HTTP方法字符串、请求的URL地址字符串、指定请求是否为异步方式、验证信息中的用户名、验证信息中的密码，只有前两个是必选项。
+
+send()方法是要传递的值。如果是GET方法可以直接在URL中附带，传递信息可以为null，如果是POST方法，该值是一个或多个“名/值”对，多个“名/值”对之间用&分割。
+XMLHttpRequest对象通过readyState属性实时跟踪异步交互状态。一旦该属性发生变化，就触发readystatechange时间，调用该事件绑定的回调函数。readyState属性值一共有5个(0-4)，4表示数据接收完毕。
+
+### 3.5 客户端响应
+
+![Servlet容器的作用](img/Servlet容器的作用.png)
+Web服务器和Web客户端之间通过HTTP进行通信，web服务器的工作有两个，处理客户端请求与创建并返回响应。处理请求需要在TCP层进行socket编程，实现客户端-服务器的协议，进而从请求报文中提取信息。服务器根据请求，发出相应的。
+
+Web服务器将处理应用程序逻辑的部分分离出来作为Servlet程序，并对其进行拓展性支持。用于管理Servlet的专门模块被称为Servlet容器，Servlet容器提供Java运行环境与Servlet接口。Servlet容器会接受来自浏览器的HTTP请求和返回发向浏览器的HTTP响应，并管理Servlet的生命周期，Servlet程序对请求和响应做出处理。Tomcat服务器是一个运行在JVM之上的Servlet容器，它可以作为一个服务器，解析请求并返回响应。
+
+![Servlet接口](img/Servlet接口.png)
+Servlet是一个定义处理网络请求规范的接口，它要求必须实现五个方法，init()、service()、destroy()方法分别定义网络请求初始化、接收到请求、销毁时的动作。我们自己定义的Servlet不会去直接实现javax.servlet.servlet接口，而是去继承HttpServlet类或者GenericServlet类，我们有选择地覆盖相应的方法来完成要完成的工作。
+
+![HttpServlet类](img/HttpServlet类.png)
+上图是HttpServlet类，我们通过继承该类并重写doGet()和doPost()方法，可以处理Get请求和Post请求。
+
+浏览器和服务器是使用HTTP协议通过URL来进行通信，所以Servlet类的处理对象也是针对特定的URL，通过对Web.xml下的Servlet-mapping，可以设置匹配请求。
+
+按照Servlet规范，Java Web应用将相关的html、jsp、Servlet类等资源文件按特定方式组织在一起，程序被组织后放置在容器中，容器按部署的结构识别Web程序的各个部分。
+
+<pre>
+└── websample
+    └── WEB-INF
+        ├── classer
+        ├── lib
+        └── web.xml
+</pre>
+
+比如websample是一个应用，在Tomcat中，tomcat安装路径/webapps是所有应用的根目录，而该应用的根目录是install_dir/webapps/websample，一个应用的目录下除了HTMP，JSP等文件，还直接包含一个web-INF的目录，这个目录的名字固定且不能通过服务器外部访问，WEB-INF文件夹由三部分组成，classer文件夹存放已编译的Servlet类和其他Java类，供Web容器调用，lib文件夹存放需要的、已经打包好的JAP包，如第三方库和数据库厂商提供的驱动程序，web.xml成为“Web应用的部署描述符(Web Application Deployment Descript)”它用来描述Web容器对该应用程序的部署。
+
+部署描述符是一个xml文件，它定义了Web容器应该了解的有关Web应用的所有设置。
+
+- ServletContext初始化参数
+- Session配置
+- Servlet声明
+- Servlet映射
+- 应用生存期监听器
+- 过滤器定义和应黑色(啥玩意儿？————————————————————————————————————————————————————————————————————————————————)
+- MIME了形映射
+
+![1.4.3 Web应用部署描述符](img/1.4.3Web应用部署描述符.png)
+
+图中的Servlet声明和Servlet映射，将SimpleAjaxServlet类与根目录下/SimpleAjax的URL绑定，当存在这样的请求时，通过Web容器解析就可以将请求传递给SimpleAjaxServlet类，从而进行处理并创建响应。
+
+### 3.6 Tomcat总体架构
+
+![Tomcat总体架构](img/1.5.1Tomcat总体架构.png)
+
+- Server：代表整个tomcat服务器，一个tomcat只有一个Server；
+- Service：Server中的一个逻辑功能层， 一个Server可以包含多个Service；
+- Connector：称作连接器，是Service的核心组件之一，一个Service可以有多个Connector，主要是连接客户端请求；
+- Container：Service的另一个核心组件，按照层级有Engine，Host，Context，Wrapper四种，一个Service只有一个Engine，其主要作用是执行业务逻辑；
+- Jasper：JSP引擎；
+- Naming：命名服务；
+- Session：会话管理；
+- Logging：使用Tomcat时内部的日志记录；
+
+![Tomcat核心组件——Connector](img/1.5.2Tomcat核心组件——Connector.png)
+
+Connector使用ProtocolHandler来处理请求的，不同的ProtocolHandler代表不同的连接类型。
+Endpoint用来处理底层Socket的网络连。，Processor用于将Endpoint接收到的Socket封装成Request
+Adapter充当适配器，用于将Request转换为ServletRequest交给Container进行具体的处理。 
+Endpoint由于是处理底层的Socket网络连接，因此Endpoint是用来实现TCP/IP协议的，而Processor用来实现HTTP协议的，Adapter将请求适配到Servlet容器进行具体的处理。
+
+![Tomcat核心组件——Container](img/1.5.3Tomcat核心组件——Container.png)
+
+Container容器的设计是典型的责任链的设计模式，它由四个子容器组件构成，分别是Engine、Host、Context和Wrapper。
+
+- Wrapper: Servlet在容器中的包装类，负责管理一个Servlet的装在、初始化、执行以及资源回收。
+- Context: 管理Servlet的容器每个Context代表一个应用。简单的Tomcat可以只有Wrapper和Context。
+- Host: 每个代表一个虚拟主机，作用是运行多个应用，对web.xml的解析需要Host。
+- Engine: 代表一个完整的Servlet引擎，它定义了一些基本的关联关系。
+
+### 3.7 MySQL/JDBC
+
+操作MySQL数据库的方法有通过MySQL客户端、MySQL命令行还有通过java来访问
+
+- JDBC 规范定义接口，具体的实现由各大数据库厂商来实现。 
+- JDBC 是 Java 访问数据库的标准规范，真正怎么操作数据库还需要具体的实现类，也就是数据库驱动。每个数据库厂商根据自家数据库的通信格式编写好自己数据库的驱动。所以我们只需要调用 JDBC 接口中的方法即可。
+
+![JDBC连接](img/1.6.1JDBC连接.png)
+
+通过在pom.xml中填写坐标，maven可以自动帮我们下载相关驱动，通过查看以来详情可以看到，下载的最新版是8.0.23版本
+
+|接口或类|作用|
+|:-|:-|
+|Driver Manager 类|1) 管理和注册数据库驱动 <br />2) 得到数据库连接对象|
+|Connection 接口|一个连接对象，可用于创建 Statement 和 PreparedStatement 对象|
+|Statement 接口|一个 SQL 语句对象，用于将 SQL 语句发送给数据库服务器。|
+
+这里是JDBC的核心API。通过这些类或接口，我们可以实现对数据库的连接与操作。
+
+![JDBC连接类](img/1.6.1JDBC连接类.png)
+
+如图所示是连接数据库的方法，在它的测试类里通过查询返回前五十条数据，之后在Servlet或其他类需要对数据库进行操作的时候，都可以通过这样的方法连接与操作数据库。
+
+![JDBC连接测试类](img/1.6.1JDBC连接测试类.png)
+
+左图连接数据库的类，在它的测试类里通过查询返回前五十条数据.
+
+![MySQL数据库信息](img/1.6.2MySQL数据库信息.png)
+
+- Movies、ratings、tags 这些是根据Movie_lens数据导入的数据库内容，存储了电影基本信息。
+- Register：在用户登录时保存的登陆状态
+- Recommend_result：保存推荐结果
