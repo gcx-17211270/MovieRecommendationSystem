@@ -1,0 +1,12 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(º›°Î8£›ö‘ˆ/
+r	java:S117("QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îÅ—¯üÿÿÿÿ8¼”„•ˆ/
+E
+java:S1148C"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8Ò„ý«ü.
+O
+java:S1128"2Remove this unused import 'java.sql.SQLException'.(ÛïÆŸ8ÛƒÇÝ‡/
+‚
+java:S1989!"`Handle the following exceptions that could be thrown by "doPost": ServletException, IOException.(éöõ¦ùÿÿÿÿ8Ò„ý«ü.
+]	java:S125)"<This block of commented-out lines of code should be removed.(ÅÏ•Øøÿÿÿÿ8ðºëÝ‡/
+x
+java:S19897"VHandle the following exception that could be thrown by "getOutputStream": IOException.(€¥àúÿÿÿÿ8Ò„ý«ü.

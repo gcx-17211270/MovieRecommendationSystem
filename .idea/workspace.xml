@@ -6,7 +6,74 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="748dc1e8-1aa6-483d-b9ed-3f621161413c" name="Default Changelist" comment="" />
+    <list default="true" id="748dc1e8-1aa6-483d-b9ed-3f621161413c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/result/K=10-epochs=10-alpha=0.1-lamb=0.01-P.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/RecommendationTableCREATE.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Mapper/MostRatingsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Mapper/MostRatingsImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Mapper/RecommendationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Mapper/RecommendationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/RecommendationUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/POJO/RecommendationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Utils/RecommendationUtilsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/recommend_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/recommend_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/68b9f052-3798-49f6-a486-ac6a19644c7c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/68b9f052-3798-49f6-a486-ac6a19644c7c.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/3/1337d72a3b1928dba82aa5210f5cdc0e88ce895b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/3/1337d72a3b1928dba82aa5210f5cdc0e88ce895b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/3/13b2e81585b704b3994102d9c31a683888a6e56b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/172642f713ec47cf23df98fb73134dce65dbe138" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/1/213b3da0de2dfbf29eb3c60cbb5b3c065a5aba01" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/3/3318f6db2a353f5b35c326a6767084d73fff1ba8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/d/3d7bcf7e0fc84c5f031493215a0bbfcaad5d9c9a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/799ad543fa7d129f25701bb1476404364780b84f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/9/b92ffbffb78213dd499bdacbb748890eac477e5f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/ba4f5452b150f429d3e56ef45e4e444a6fbcd45b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/8/c830b85d76241af48da10be8422a31d03daf0599" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/e/ce3c953eb357df5d3457ca5cfea1ad82ff6a5c08" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/c/ec9d1743eb246e8ae81ca61dbdebed4afdd95772" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f044927906ca64c619cbf814c52ced2c1fdc205b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/2/f23fc229b103d2e8d58b803fe5a526b0eeb40467" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/f/ff51c030517ec3f8475769fc3dc00558eb594bcb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/log.log.2021-02-22" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log.log.2021-02-22" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/log.log.2021-03-01" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log.log.2021-03-01" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/recommend.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ConnMySQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Mapper/ConnMySQL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MostRatings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/MostRatingsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SimpleAjaxServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/SimpleAjaxServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ml-latest-small/movies.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ml-latest-small/movies.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/src/JavaScript/BrowserObjectModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/JavaScript/BrowserObjectModel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/src/JavaScript/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/JavaScript/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/src/JavaScript/jquery-3.5.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/JavaScript/jquery-3.5.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/src/JavaScript/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/JavaScript/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/src/JavaScript/root.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/JavaScript/root.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/src/JavaScript/xmlHttpObject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/JavaScript/xmlHttpObject.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/src/css/box.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/box.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/src/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/src/html/Search.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/html/Search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/src/html/change.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/html/change.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/src/html/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/html/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/src/html/root.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/html/root.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/src/html/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/html/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/ConnMySQLTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ConnMySQLTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ml-latest-small/movies.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ml-latest-small/movies.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,7 +120,28 @@
         <item name="@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="movies_data2: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="itembasedcf: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="movies_data2: schema" type="c314c289:MysqlImplModel$Schema" />
         <item name="movies: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="movies_data2: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="tags: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="movies_data2: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="userbasedcf: table" type="98d5ac3d:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -95,51 +183,66 @@
     <session id="496627999">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
+          <entry key="project.closed" value="21" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.24" value="2" />
+          <entry key="project.open.time.25" value="2" />
           <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.38" value="1" />
-          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.48" value="1" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.53" value="1" />
+          <entry key="project.open.time.55" value="1" />
           <entry key="project.open.time.56" value="1" />
           <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.63" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="ASP" value="1" />
-          <entry key="CLASS" value="6" />
-          <entry key="CSS" value="9" />
-          <entry key="Database Element" value="5" />
-          <entry key="HTML" value="26" />
-          <entry key="IDEA_MODULE" value="6" />
-          <entry key="JAVA" value="53" />
-          <entry key="JSP" value="2" />
-          <entry key="JavaScript" value="26" />
-          <entry key="PLAIN_TEXT" value="22" />
-          <entry key="Properties" value="4" />
+          <entry key="CLASS" value="16" />
+          <entry key="CSS" value="10" />
+          <entry key="Database Element" value="7" />
+          <entry key="Eclipse" value="2" />
+          <entry key="HTML" value="29" />
+          <entry key="IDEA_MODULE" value="7" />
+          <entry key="JAVA" value="86" />
+          <entry key="JSP" value="3" />
+          <entry key="JavaScript" value="35" />
+          <entry key="Markdown" value="2" />
+          <entry key="PLAIN_TEXT" value="32" />
+          <entry key="Properties" value="7" />
+          <entry key="Python" value="2" />
+          <entry key="SQL" value="3" />
           <entry key="Scratch" value="2" />
           <entry key="UML" value="8" />
-          <entry key="XML" value="12" />
+          <entry key="XML" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="ASP" value="231" />
           <entry key="CLASS" value="2" />
-          <entry key="CSS" value="381" />
-          <entry key="HTML" value="5015" />
+          <entry key="CSS" value="845" />
+          <entry key="HTML" value="5533" />
           <entry key="IDEA_MODULE" value="3" />
-          <entry key="JAVA" value="2497" />
-          <entry key="JavaScript" value="3836" />
-          <entry key="Properties" value="34" />
-          <entry key="XML" value="218" />
+          <entry key="JAVA" value="4388" />
+          <entry key="JavaScript" value="3860" />
+          <entry key="PLAIN_TEXT" value="76" />
+          <entry key="Properties" value="109" />
+          <entry key="Python" value="1" />
+          <entry key="SQL" value="449" />
+          <entry key="XML" value="580" />
         </counts>
       </usages-collector>
     </session>
@@ -150,19 +253,110 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Program Files/Java/jdk-11.0.9/lib/src.zip!/java.base/java/lang/Object.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Utils/RecommendationUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="216" column="31" selection-start-line="161" selection-start-column="6" selection-end-line="218" selection-end-column="31" />
+            <state relative-caret-position="600">
+              <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1173#1174#0" expanded="true" />
+                <element signature="e#1245#1246#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Mapper/ConnMySQL.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Mapper/MostRatingsDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Mapper/MostRatingsImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="941">
+              <caret line="51" column="25" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="jar://D:/Program Files/Java/jdk-11.0.9/lib/src.zip!/java.base/java/util/Objects.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Controller/MostRatingsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="245" column="42" selection-start-line="245" selection-start-column="22" selection-end-line="245" selection-end-column="42" />
+            <state relative-caret-position="542">
+              <caret line="60" column="33" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/POJO/Recommendation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="17" column="15" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="15" />
+              <folding>
+                <element signature="e#1017#1018#0" expanded="true" />
+                <element signature="e#1045#1046#0" expanded="true" />
+                <element signature="e#1102#1103#0" expanded="true" />
+                <element signature="e#1154#1155#0" expanded="true" />
+                <element signature="e#1254#1255#0" expanded="true" />
+                <element signature="e#1288#1289#0" expanded="true" />
+                <element signature="e#1188#1189#0" expanded="true" />
+                <element signature="e#1213#1214#0" expanded="true" />
+                <element signature="e#1251#1252#0" expanded="true" />
+                <element signature="e#1288#1289#0" expanded="true" />
+                <element signature="e#1260#1261#0" expanded="true" />
+                <element signature="e#1288#1289#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Mapper/RecommendationMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Mapper/RecommendationMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/POJO/RecommendationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="10" column="49" lean-forward="true" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -174,12 +368,13 @@
       <list>
         <option value="CSS File" />
         <option value="Arquillian JUnit Test Class" />
-        <option value="JUnit4 Test Class" />
         <option value="Tag Library Descriptor" />
         <option value="Jsp File" />
-        <option value="Class" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JUnit4 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -189,38 +384,20 @@
       <find>onload</find>
       <find>基于协同过滤算法的电影推荐系统</find>
       <find>width</find>
+      <find>src</find>
+      <find>getUserId</find>
+      <find>xmlHttp</find>
     </findStrings>
+    <replaceStrings>
+      <replace>static</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/res/css/box.css" />
-        <option value="$PROJECT_DIR$/src/main/java/MovieDataSQL.java" />
-        <option value="$PROJECT_DIR$/src/main/java/CoonMySQL.java" />
-        <option value="$PROJECT_DIR$/web/src/createXMLHTTPObject.js" />
-        <option value="$PROJECT_DIR$/web/src/JavaScript/_1509.js" />
-        <option value="$PROJECT_DIR$/web/test/_1509.js" />
-        <option value="$PROJECT_DIR$/web/test/BrowserObjectModel.js" />
-        <option value="$PROJECT_DIR$/web/src/html/Search.html" />
-        <option value="$PROJECT_DIR$/web/test/_1607.js" />
-        <option value="$PROJECT_DIR$/web/test/_1607/index.htm.html" />
-        <option value="$PROJECT_DIR$/web/test/_1607/index.htm" />
-        <option value="$PROJECT_DIR$/web/test/_1607/blank.html" />
-        <option value="$PROJECT_DIR$/web/test/_1607/blank.htm" />
-        <option value="$PROJECT_DIR$/web/test/_1607/server.html" />
-        <option value="$PROJECT_DIR$/web/test/_1607/server.htm" />
-        <option value="$PROJECT_DIR$/web/test/_1607/server2.htm" />
-        <option value="$PROJECT_DIR$/web/test/_1607/main.htm" />
-        <option value="$PROJECT_DIR$/web/test/_1806.html" />
-        <option value="$PROJECT_DIR$/web/res/server.asp" />
-        <option value="$PROJECT_DIR$/web/res/server2.jsp" />
-        <option value="$PROJECT_DIR$/web/test/_19Ajax/createXMLHTTPObject.js" />
-        <option value="$PROJECT_DIR$/web/src/css/box.css" />
-        <option value="$PROJECT_DIR$/web/src/JavaScript/xmlHttpObject.js" />
-        <option value="$PROJECT_DIR$/web/index.html" />
-        <option value="$PROJECT_DIR$/web/src/html/login.html" />
-        <option value="$PROJECT_DIR$/web/src/JavaScript/login.js" />
-        <option value="$PROJECT_DIR$/src/main/java/MostSearchData.java" />
         <option value="$PROJECT_DIR$/web/src/JavaScript/index.js" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/src/JavaScript/xmlHttpObject.js" />
@@ -228,23 +405,50 @@
         <option value="$PROJECT_DIR$/src/test/ConnMySQLTest.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/src/html/Search.html" />
         <option value="$PROJECT_DIR$/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/java/ConnMySQL.java" />
         <option value="$PROJECT_DIR$/src/main/java/SimpleAjaxServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/Search.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MostRatings.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/src/JavaScript/root.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/src/css/box.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/temp/tsinghua.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/src/html/root.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/src/html/login.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/src/JavaScript/index.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/src/JavaScript/login.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/temp/wrong.html" />
         <option value="$PROJECT_DIR$/src/main/java/Login.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MostRatings.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/JavaScript/index.js" />
+        <option value="$PROJECT_DIR$/src/main/java/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/Controller/Search.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Controller/SimpleAjaxServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/css/box.css" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/sql/UserBasedCF" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/Algorithm/MovieLens-RecSys/itemcf.py" />
+        <option value="$PROJECT_DIR$/src/main/java/Wrapper/DataInit.java" />
+        <option value="$PROJECT_DIR$/sql/RecommendationTableCREATE" />
+        <option value="$PROJECT_DIR$/sql/RecommendationTableCREATE.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/Wrapper/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Wrapper/ConnMySQL.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/src/test/Utils/RecommendationUtilsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Utils/RecommendationUtils.java" />
+        <option value="$PROJECT_DIR$/src/test/POJO/RecommendationTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/POJO/Recommendation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Wrapper/RecommendationWrapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Wrapper/RecommendationMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Mapper/RecommendationMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Mapper/RecommendationMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Mapper/MostRatings.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Controller/MostRatings.java" />
+        <option value="$PROJECT_DIR$/src/main/java/POJO/MostRatings.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Mapper/MostRatingsDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Mapper/MostRatingsImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Controller/MostRatingsController.java" />
       </list>
     </option>
   </component>
@@ -295,10 +499,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="618" />
-    <option name="y" value="-21" />
-    <option name="width" value="1149" />
-    <option name="height" value="1455" />
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="2280" />
+    <option name="height" value="1467" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -310,6 +514,9 @@
           </State>
           <State>
             <id>Android</id>
+          </State>
+          <State>
+            <id>CorrectnessLintAndroid</id>
           </State>
           <State>
             <id>IconsUsabilityLintAndroid</id>
@@ -330,6 +537,21 @@
             <id>LintAndroid</id>
           </State>
           <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+          <State>
+            <id>Resource managementJava</id>
+          </State>
+          <State>
+            <id>SecurityLintAndroid</id>
+          </State>
+          <State>
+            <id>Serialization issuesJava</id>
+          </State>
+          <State>
             <id>UsabilityLintAndroid</id>
           </State>
           <State>
@@ -338,104 +560,129 @@
         </expanded-state>
         <selected-state>
           <State>
-            <id>Ali-Check</id>
+            <id>PyInterpreterInspection</id>
           </State>
         </selected-state>
       </profile-state>
     </entry>
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="recommend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="recommend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="recommend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 11 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="recommend" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="recommend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 11 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.base" type="462c0819:PsiDirectoryNode" />
+              <item name="recommend" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="result" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="recommend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 11 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.base" type="462c0819:PsiDirectoryNode" />
+              <item name="recommend" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recommend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recommend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recommend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recommend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recommend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recommend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="recommend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 11 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.base" type="462c0819:PsiDirectoryNode" />
+              <item name="recommend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="recommend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="recommend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="recommend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="recommend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="POJO" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="recommend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-              <item name="68b9f052-3798-49f6-a486-ac6a19644c7c" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+              <item name="recommend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="recommend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="recommend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="recommend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-              <item name="com.intellij.database" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+              <item name="recommend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="POJO" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="recommend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-              <item name="com.intellij.database" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
-              <item name="data" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+              <item name="recommend" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="recommend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-              <item name="com.intellij.database" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
-              <item name="data" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
-              <item name="extractors" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+              <item name="recommend" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="recommend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-              <item name="com.intellij.database" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
-              <item name="schema" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+              <item name="recommend" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="POJO" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -446,7 +693,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1615799818645" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1617437560755" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -456,13 +703,15 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="diff.external" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Utils" />
+      <recent name="POJO" />
       <recent name="" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -480,11 +729,11 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Desktop\recommend\src\main\resources" />
+      <recent name="D:\Desktop\recommend\Algorithm\MovieLens-RecSys\result" />
+      <recent name="D:\Desktop\recommend\Algorithm\MovieLens-RecSys\data" />
+      <recent name="D:\Desktop\recommend" />
       <recent name="D:\Desktop\recommend\src\main\java" />
-      <recent name="D:\Desktop\recommend\src" />
-      <recent name="D:\Desktop\recommend\src\main\webapp\src\JavaScript" />
-      <recent name="D:\Desktop\recommend\src\main" />
-      <recent name="D:\Desktop\recommend\web\src\html" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -507,6 +756,58 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="RecommendationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="recommend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="POJO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="POJO" />
+      <option name="MAIN_CLASS_NAME" value="POJO.RecommendationTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecommendationTest.testRecommendation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="recommend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="POJO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="POJO" />
+      <option name="MAIN_CLASS_NAME" value="POJO.RecommendationTest" />
+      <option name="METHOD_NAME" value="testRecommendation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="itemcf" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="recommend" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm/MovieLens-RecSys" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/MovieLens-RecSys/itemcf.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="Tomcat 9.0.34" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.34" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
@@ -584,9 +885,15 @@
     <list>
       <item itemvalue="Tomcat Server.Tomcat 9.0.34" />
       <item itemvalue="JUnit.ConnMySQLTest" />
+      <item itemvalue="JUnit.RecommendationTest.testRecommendation" />
+      <item itemvalue="JUnit.RecommendationTest" />
+      <item itemvalue="Python.itemcf" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RecommendationTest" />
+        <item itemvalue="JUnit.RecommendationTest.testRecommendation" />
+        <item itemvalue="Python.itemcf" />
         <item itemvalue="JUnit.ConnMySQLTest" />
       </list>
     </recent_temporary>
@@ -619,43 +926,54 @@
       <workItem from="1615121161828" duration="620000" />
       <workItem from="1615692496254" duration="2050000" />
       <workItem from="1615796205187" duration="3237000" />
+      <workItem from="1616910437882" duration="1092000" />
+      <workItem from="1616937251139" duration="5676000" />
+      <workItem from="1617070985298" duration="1457000" />
+      <workItem from="1617092443777" duration="11519000" />
+      <workItem from="1617105889373" duration="184000" />
+      <workItem from="1617106279756" duration="3059000" />
+      <workItem from="1617165994935" duration="594000" />
+      <workItem from="1617237321525" duration="2875000" />
+      <workItem from="1617240280988" duration="5029000" />
+      <workItem from="1617268192950" duration="739000" />
+      <workItem from="1617367981895" duration="6057000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ConnMySQLTest - 2021.02.19 at 02h 17m 27s.xml">
-      <configuration name="ConnMySQLTest" configurationId="JUnit" />
+    <history-entry file="RecommendationTest_testRecommendation - 2021.04.01 at 17h 19m 55s.xml">
+      <configuration name="RecommendationTest.testRecommendation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConnMySQLTest - 2021.02.19 at 02h 51m 57s.xml">
-      <configuration name="ConnMySQLTest" configurationId="JUnit" />
+    <history-entry file="RecommendationTest_testRecommendation - 2021.04.01 at 17h 20m 21s.xml">
+      <configuration name="RecommendationTest.testRecommendation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConnMySQLTest - 2021.02.19 at 11h 13m 27s.xml">
-      <configuration name="ConnMySQLTest" configurationId="JUnit" />
+    <history-entry file="RecommendationTest_testRecommendation - 2021.04.01 at 17h 20m 45s.xml">
+      <configuration name="RecommendationTest.testRecommendation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConnMySQLTest - 2021.02.19 at 11h 14m 05s.xml">
-      <configuration name="ConnMySQLTest" configurationId="JUnit" />
+    <history-entry file="RecommendationTest_testRecommendation - 2021.04.01 at 17h 21m 02s.xml">
+      <configuration name="RecommendationTest.testRecommendation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConnMySQLTest - 2021.02.19 at 11h 16m 19s.xml">
-      <configuration name="ConnMySQLTest" configurationId="JUnit" />
+    <history-entry file="RecommendationTest_testRecommendation - 2021.04.02 at 21h 36m 06s.xml">
+      <configuration name="RecommendationTest.testRecommendation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConnMySQLTest - 2021.02.19 at 11h 16m 56s.xml">
-      <configuration name="ConnMySQLTest" configurationId="JUnit" />
+    <history-entry file="RecommendationTest_testRecommendation - 2021.04.03 at 15h 35m 51s.xml">
+      <configuration name="RecommendationTest.testRecommendation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConnMySQLTest - 2021.02.19 at 11h 22m 20s.xml">
-      <configuration name="ConnMySQLTest" configurationId="JUnit" />
+    <history-entry file="RecommendationTest_testRecommendation - 2021.04.03 at 15h 37m 34s.xml">
+      <configuration name="RecommendationTest.testRecommendation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConnMySQLTest - 2021.02.19 at 14h 22m 26s.xml">
-      <configuration name="ConnMySQLTest" configurationId="JUnit" />
+    <history-entry file="RecommendationTest - 2021.04.03 at 15h 38m 59s.xml">
+      <configuration name="RecommendationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConnMySQLTest_testConnMySQL - 2021.02.22 at 01h 02m 59s.xml">
-      <configuration name="ConnMySQLTest.testConnMySQL" configurationId="JUnit" />
+    <history-entry file="RecommendationTest - 2021.04.03 at 15h 41m 24s.xml">
+      <configuration name="RecommendationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConnMySQLTest_testConnMySQL - 2021.02.22 at 01h 04m 24s.xml">
-      <configuration name="ConnMySQLTest.testConnMySQL" configurationId="JUnit" />
+    <history-entry file="RecommendationTest - 2021.04.03 at 15h 41m 39s.xml">
+      <configuration name="RecommendationTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156988000" />
+    <option name="totallyTimeSpent" value="195269000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -670,78 +988,80 @@
     <frame x="-7" y="-7" width="1519" height="977" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.3995272" visible="true" weight="0.26830938" />
-      <window_info active="true" id="Structure" order="1" sideWeight="0.6004728" side_tool="true" visible="true" weight="0.26830938" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" sideWeight="0.501182" side_tool="true" weight="0.32717317" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" side_tool="true" weight="0.32991102" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.39834514" visible="true" weight="0.2128679" />
+      <window_info id="Designer" order="1" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" sideWeight="0.501182" side_tool="true" weight="0.32717317" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Web" order="6" side_tool="true" weight="0.32991102" />
+      <window_info id="Structure" order="7" sideWeight="0.6011834" weight="0.275154" />
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.3289941" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3289941" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49965778" weight="0.29196218" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49965778" weight="0.28994083" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.33096927" />
       <window_info anchor="bottom" id="Application Servers" order="8" weight="0.3286052" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.2884161" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.28757396" />
       <window_info anchor="bottom" id="CheckStyle" order="10" weight="0.3289941" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50034225" side_tool="true" weight="0.29196218" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49965778" weight="0.32742316" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49965778" weight="0.32662722" />
       <window_info anchor="bottom" id="SonarLint" order="13" weight="0.3286052" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.3289941" />
       <window_info anchor="bottom" id="Database Changes" order="15" weight="0.3289941" />
       <window_info anchor="bottom" id="Version Control" order="16" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24982889" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24982889" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.32991102" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32785764" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.2422998" />
       <window_info anchor="right" id="Database" order="7" weight="0.23545517" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="SciView" order="10" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49881798" visible="true" weight="0.24572212" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" sideWeight="0.501182" side_tool="true" weight="0.32717317" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" side_tool="true" weight="0.32991102" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.39834514" visible="true" weight="0.16974674" />
+      <window_info id="Designer" order="1" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" sideWeight="0.501182" side_tool="true" weight="0.32717317" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Web" order="6" side_tool="true" weight="0.32991102" />
+      <window_info id="Structure" order="7" sideWeight="0.6011834" weight="0.275154" />
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.3289941" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.2923077" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3289941" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49965778" visible="true" weight="0.28994083" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" weight="0.33136094" />
-      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.3289941" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3289941" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.33096927" />
+      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.3286052" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.28757396" />
       <window_info anchor="bottom" id="CheckStyle" order="10" weight="0.3289941" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32781065" />
-      <window_info anchor="bottom" id="SonarLint" order="13" weight="0.3289941" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50034225" side_tool="true" weight="0.29196218" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49965778" weight="0.32662722" />
+      <window_info anchor="bottom" id="SonarLint" order="13" weight="0.3286052" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.3289941" />
       <window_info anchor="bottom" id="Database Changes" order="15" weight="0.3289941" />
       <window_info anchor="bottom" id="Version Control" order="16" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24982889" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24982889" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.32991102" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32785764" />
-      <window_info anchor="right" id="Database" order="7" weight="0.23545517" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.2422998" />
+      <window_info active="true" anchor="right" id="Database" order="7" visible="true" weight="0.23545517" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="SciView" order="10" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -750,260 +1070,83 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/temp/_1607/server2.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/res/server.tld" />
-    <entry file="file://$PROJECT_DIR$/web/res/server2.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/temp/server.asp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/temp/_1607.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="2" column="111" selection-start-line="2" selection-start-column="111" selection-end-line="2" selection-end-column="111" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/temp/_1509.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/temp/_1806.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/ml-latest-small/ratings.csv">
+    <entry file="file://$PROJECT_DIR$/target/classes/log4j.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/ml-latest-small/movies.csv">
+    <entry file="file://$PROJECT_DIR$/target/classes/Login.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/JavaScript/BrowserObjectModel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1175">
-          <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+        <state relative-caret-position="1050">
+          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MovieData.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/ml-latest-small/README.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="110" column="6" selection-start-line="110" selection-end-line="110" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/temp/_19Ajax/createXMLHTTPObject.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/Login">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>Login</OriginalElement>
-          <nodes>
-            <node x="" y="">javax.servlet.ServletConfig</node>
-            <node x="" y="">javax.servlet.http.HttpServlet</node>
-            <node x="" y="">javax.servlet.GenericServlet</node>
-            <node x="" y="">javax.servlet.Servlet</node>
-            <node x="" y="">Login</node>
-            <node x="" y="">java.io.Serializable</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="182.0" y="137.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/javax.servlet.Servlet">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>javax.servlet.Servlet</OriginalElement>
-          <nodes>
-            <node x="" y="">javax.servlet.Servlet</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="43.0" y="16.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/apache-tomcat-9.0.34/lib/servlet-api.jar!/javax/servlet/GenericServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/javax.servlet.http.HttpServlet">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>javax.servlet.http.HttpServlet</OriginalElement>
-          <nodes>
-            <node x="160.65625" y="0.0">javax.servlet.ServletConfig</node>
-            <node x="156.90625" y="243.0">javax.servlet.http.HttpServlet</node>
-            <node x="148.40625" y="162.0">javax.servlet.GenericServlet</node>
-            <node x="133.0" y="81.0">javax.servlet.Servlet</node>
-            <node x="0.0" y="81.0">java.io.Serializable</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="javax.servlet.GenericServlet" target="java.io.Serializable">
-              <point x="-52.0" y="-15.5" />
-              <point x="161.40625" y="137.0" />
-              <point x="56.5" y="137.0" />
-              <point x="0.0" y="15.5" />
-            </edge>
-            <edge source="javax.servlet.Servlet" target="javax.servlet.ServletConfig">
-              <point x="0.0" y="-15.5" />
-              <point x="-46.5" y="15.5" />
-            </edge>
-            <edge source="javax.servlet.http.HttpServlet" target="javax.servlet.GenericServlet">
-              <point x="0.0" y="-15.5" />
-              <point x="0.0" y="15.5" />
-            </edge>
-            <edge source="javax.servlet.GenericServlet" target="javax.servlet.ServletConfig">
-              <point x="26.0" y="-15.5" />
-              <point x="239.40625" y="137.0" />
-              <point x="240.5" y="137.0" />
-              <point x="240.5" y="56.0" />
-              <point x="238.15625" y="56.0" />
-              <point x="15.5" y="15.5" />
-            </edge>
-            <edge source="javax.servlet.GenericServlet" target="javax.servlet.Servlet">
-              <point x="-26.0" y="-15.5" />
-              <point x="187.40625" y="137.0" />
-              <point x="176.0" y="137.0" />
-              <point x="0.0" y="15.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-127.0" y="65.0" />
-          <SelectedNodes>
-            <node>javax.servlet.http.HttpServlet</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/javax.servlet.http.HttpServletRequest">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>javax.servlet.http.HttpServletRequest</OriginalElement>
-          <nodes>
-            <node x="" y="">javax.servlet.http.HttpServletRequest</node>
-            <node x="" y="">javax.servlet.ServletRequest</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="80.0" y="56.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/org.junit.runner.Request">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>org.junit.runner.Request</OriginalElement>
-          <nodes>
-            <node x="0.0" y="0.0">org.junit.runner.Request</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-262.0" y="-16.0" />
-          <SelectedNodes>
-            <node>org.junit.runner.Request</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/temp">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>temp</OriginalElement>
-          <nodes>
-            <node x="" y="">temp</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="39.0" y="16.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/temp.java" />
-    <entry file="jar://D:/Program Files/apache-tomcat-9.0.34/lib/servlet-api.jar!/javax/servlet/Servlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/apache-tomcat-9.0.34/lib/servlet-api.jar!/javax/servlet/http/HttpServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/src/JavaScript/BrowserObjectModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="55" column="13" lean-forward="true" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/src/html/Search.html">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/JavaScript/login.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <caret line="7" column="47" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/src/JavaScript/xmlHttpObject.js">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/JavaScript/root.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/JavaScript/xmlHttpObject.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/apache-tomcat-9.0.34/lib/servlet-api.jar!/javax/servlet/annotation/WebServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.47/fastjson-1.2.47.jar!/com/alibaba/fastjson/JSON.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="69" column="49" selection-start-line="69" selection-start-column="27" selection-end-line="69" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.47/fastjson-1.2.47.jar!/com/alibaba/fastjson/JSONArray.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.47/fastjson-1.2.47.jar!/com/alibaba/fastjson/JSONObject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controller/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -1012,221 +1155,237 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/logs/log.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
+        <state relative-caret-position="-5061">
           <caret line="15" column="76" lean-forward="true" selection-start-line="15" selection-start-column="76" selection-end-line="15" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/JavaScript/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" selection-start-line="12" selection-end-line="13" />
+        <state relative-caret-position="325">
+          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/ConnMySQLTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controller/SimpleAjaxServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="13" column="30" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="33" selection-end-column="31" />
+        <state relative-caret-position="125">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar!/javax/servlet/annotation/WebServlet.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="-110">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ConnMySQL.java">
+    <entry file="file://$PROJECT_DIR$/sql/recommendation_UserBasedCF" />
+    <entry file="file://$PROJECT_DIR$/Algorithm/user_based" />
+    <entry file="file://$PROJECT_DIR$/Algorithm/MovieLens-RecSys/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        <state relative-caret-position="1988">
+          <caret line="95" column="8" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Search.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/box.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/src/css/box.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/src/JavaScript/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/temp/wrong.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
+        <state relative-caret-position="464">
+          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="38" column="113" selection-start-line="38" selection-start-column="113" selection-end-line="38" selection-end-column="113" />
+        <state relative-caret-position="522">
+          <caret line="60" column="40" selection-start-line="60" selection-start-column="40" selection-end-line="60" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controller/Search.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="113" selection-start-line="25" selection-start-column="113" selection-end-line="25" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/MovieLens-RecSys/itemcf.py" />
+    <entry file="file://$PROJECT_DIR$/.classpath">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Wrapper/DataInit.java" />
+    <entry file="file://$PROJECT_DIR$/Algorithm/MF/similarity.py" />
+    <entry file="file://$PROJECT_DIR$/Algorithm/MovieLens-RecSys/result/recommend.txt" />
+    <entry file="file://$PROJECT_DIR$/Algorithm/MovieLens-RecSys/result/output.txt" />
+    <entry file="das://68b9f052-3798-49f6-a486-ac6a19644c7c/schema/movies_data2/table/itembasedcf">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://68b9f052-3798-49f6-a486-ac6a19644c7c/schema/movies_data2/table/userbasedcf">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.23/mysql-connector-java-8.0.23.jar!/com/mysql/cj/xdevapi/JsonParser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/MF/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="42" column="64" selection-start-line="42" selection-start-column="64" selection-end-line="42" selection-end-column="64" />
+        <state relative-caret-position="-50">
+          <caret line="46" column="47" selection-start-line="46" selection-start-column="47" selection-end-line="46" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/temp/tsinghua.html">
+    <entry file="file://$PROJECT_DIR$/sql/RecommendationTableCREATE.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        <state relative-caret-position="375">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="121" selection-start-line="10" selection-start-column="121" selection-end-line="10" selection-end-column="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Utils/RecommendationUtilsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utils/RecommendationUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
           <folding>
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#form#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#4;n#form#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#4;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#4;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#li#4;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#5;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#5;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#li#5;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#6;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#6;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#li#6;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#7;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#7;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#li#7;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#8;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#8;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#li#8;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#9;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#9;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#li#9;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#10;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#10;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#li#10;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#11;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#11;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#li#11;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1173#1174#0" expanded="true" />
+            <element signature="e#1245#1246#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Login.java">
+    <entry file="file://$PROJECT_DIR$/src/test/POJO/RecommendationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+        <state relative-caret-position="275">
+          <caret line="10" column="49" lean-forward="true" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recommend.iml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/POJO/Recommendation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MostRatings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SimpleAjaxServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/68b9f052-3798-49f6-a486-ac6a19644c7c/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk-11.0.9/lib/src.zip!/java.base/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="3257" column="30" selection-start-line="3257" selection-start-column="15" selection-end-line="3257" selection-end-column="30" />
+        <state relative-caret-position="350">
+          <caret line="17" column="15" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="15" />
           <folding>
-            <element signature="e#129105#129106#0" expanded="true" />
-            <element signature="e#129159#129160#0" expanded="true" />
+            <element signature="e#1017#1018#0" expanded="true" />
+            <element signature="e#1045#1046#0" expanded="true" />
+            <element signature="e#1102#1103#0" expanded="true" />
+            <element signature="e#1154#1155#0" expanded="true" />
+            <element signature="e#1254#1255#0" expanded="true" />
+            <element signature="e#1288#1289#0" expanded="true" />
+            <element signature="e#1188#1189#0" expanded="true" />
+            <element signature="e#1213#1214#0" expanded="true" />
+            <element signature="e#1251#1252#0" expanded="true" />
+            <element signature="e#1288#1289#0" expanded="true" />
+            <element signature="e#1260#1261#0" expanded="true" />
+            <element signature="e#1288#1289#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/src/html/login.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Mapper/RecommendationMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="743">
-          <caret line="32" column="94" selection-start-line="32" selection-start-column="82" selection-end-line="32" selection-end-column="94" />
+        <state relative-caret-position="100">
+          <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/src/JavaScript/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="47" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/src/JavaScript/root.js">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Mapper/RecommendationMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="6" column="45" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="45" />
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/src/html/root.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-75" />
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/jdk-11.0.9/lib/src.zip!/java.base/java/lang/Object.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/POJO/MostRatings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="216" column="31" selection-start-line="161" selection-start-column="6" selection-end-line="218" selection-end-column="31" />
+        <state relative-caret-position="75">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/jdk-11.0.9/lib/src.zip!/java.base/java/util/Objects.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Mapper/ConnMySQL.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="245" column="42" selection-start-line="245" selection-start-column="22" selection-end-line="245" selection-end-column="42" />
+        <state relative-caret-position="600">
+          <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Mapper/MostRatingsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Mapper/MostRatingsImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="941">
+          <caret line="51" column="25" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controller/MostRatingsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="60" column="33" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -1241,7 +1400,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1284,12 +1442,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>recommend</last-edited>
+          <last-edited>Web|recommend</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1309,7 +1466,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: com.google.protobuf:protobuf-java:3.11.4</last-edited>
+          <last-edited>Maven: mysql:mysql-connector-java:8.0.23</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -170,7 +170,7 @@ Endpoint由于是处理底层的Socket网络连接，因此Endpoint是用来实�
 
 Container容器的设计是典型的责任链的设计模式，它由四个子容器组件构成，分别是Engine、Host、Context和Wrapper。
 
-- Wrapper: Servlet在容器中的包装类，负责管理一个Servlet的装在、初始化、执行以及资源回收。
+- Mapper: Servlet在容器中的包装类，负责管理一个Servlet的装在、初始化、执行以及资源回收。
 - Context: 管理Servlet的容器每个Context代表一个应用。简单的Tomcat可以只有Wrapper和Context。
 - Host: 每个代表一个虚拟主机，作用是运行多个应用，对web.xml的解析需要Host。
 - Engine: 代表一个完整的Servlet引擎，它定义了一些基本的关联关系。

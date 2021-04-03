@@ -1057,7 +1057,7 @@ movieId,title,genres
 1372,Star Trek VI: The Undiscovered Country (1991),Action|Mystery|Sci-Fi
 1373,Star Trek V: The Final Frontier (1989),Action|Sci-Fi
 1374,Star Trek II: The Wrath of Khan (1982),Action|Adventure|Sci-Fi|Thriller
-1375,Star Trek III: The Search for Spock (1984),Action|Adventure|Sci-Fi
+1375,Star Trek III: The Controller.Search for Spock (1984),Action|Adventure|Sci-Fi
 1376,Star Trek IV: The Voyage Home (1986),Adventure|Comedy|Sci-Fi
 1377,Batman Returns (1992),Action|Crime
 1378,Young Guns (1988),Action|Comedy|Western
@@ -1523,7 +1523,7 @@ movieId,title,genres
 2053,"Honey, I Blew Up the Kid (1992)",Children|Comedy|Sci-Fi
 2054,"Honey, I Shrunk the Kids (1989)",Adventure|Children|Comedy|Fantasy|Sci-Fi
 2055,Hot Lead and Cold Feet (1978),Action|Comedy|Western
-2056,In Search of the Castaways (1962),Adventure|Children
+2056,In Controller.Search of the Castaways (1962),Adventure|Children
 2057,"Incredible Journey, The (1963)",Adventure|Children
 2058,"Negotiator, The (1998)",Action|Crime|Drama|Mystery|Thriller
 2059,"Parent Trap, The (1998)",Children|Comedy|Romance
@@ -8332,7 +8332,7 @@ movieId,title,genres
 107565,"Fuck You, Goethe (Fack Ju Göhte) (2013)",Comedy
 107630,High School (2010),Comedy
 107702,Grudge Match (2013),Comedy
-107723,Highlander: The Search for Vengeance (2007),Action|Adventure|Fantasy
+107723,Highlander: The Controller.Search for Vengeance (2007),Action|Adventure|Fantasy
 107771,Only Lovers Left Alive (2013),Drama|Horror|Romance
 107780,Cats (1998),Musical
 107846,MacGyver: Trail to Doomsday (1994),Action|Adventure
@@ -8524,7 +8524,7 @@ movieId,title,genres
 114627,Angel's Egg (Tenshi no tamago) (1985),Animation|Drama|Fantasy
 114662,American Sniper (2014),Action|War
 114670,Tusk (2014),Comedy|Drama|Horror
-114678,Hector and the Search for Happiness (2014),Adventure|Comedy|Drama
+114678,Hector and the Controller.Search for Happiness (2014),Adventure|Comedy|Drama
 114707,Horns (2014),Horror|Mystery
 114713,Annabelle (2014),Horror
 114762,Two Night Stand (2014),Comedy|Romance
@@ -8952,7 +8952,7 @@ movieId,title,genres
 136602,Creep (2014),Horror|Thriller
 136654,The Face of an Angel (2015),Drama
 136664,Wild Horses (2015),Crime|Drama
-136666,Search Party (2014),Comedy
+136666,Controller.Search Party (2014),Comedy
 136778,The Squeeze (2015),Comedy|Drama
 136786,Careful What You Wish For (2015),Thriller
 136800,Robot Overlords (2014),Action|Adventure|Sci-Fi

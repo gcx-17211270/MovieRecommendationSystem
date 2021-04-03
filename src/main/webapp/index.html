@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>电影推荐系统</title>
-    <link href="src/css/box.css" type="text/css" rel="stylesheet">
+    <link href="static/css/box.css" type="text/css" rel="stylesheet">
 
     <!--<script type="text/javascript" src="jquery.js"></script>-->
-    <script type="text/javascript" src="src/JavaScript/xmlHttpObject.js"></script>
-    <script type="text/javascript" src="src/JavaScript/index.js"></script>
+    <script type="text/javascript" src="static/JavaScript/xmlHttpObject.js"></script>
+    <script type="text/javascript" src="static/JavaScript/index.js"></script>
     <script>
         window.onload = function() {
-            getRecommend1();
+            getMostRatings();
         }
     </script>
 </head>
@@ -22,12 +22,12 @@
         </div>
         <div id="topRight">
             <input id="sayhello" name="submit" type="button" value="Hello" onclick="simple_ajax()">
-            <a href="src/html/login.html">登录</a>
-            <a href="src/html/root.html">我的账户</a>
+            <a href="static/html/login.html">登录</a>
+            <a href="static/html/root.html">我的账户</a>
         </div>
+        <!--用户登录，网站名称-->
+        <div id="topImg"><!--<img src="res/img/page.jpg" height="100%">--></div>
     </div>
-    <!--用户登录，网站名称-->
-    <div id="top1"><img src="res/img/page.jpg" , align="left" , width="776px" , height="100px"></div>
     <!--主体-->
     <div id="main">
         <div id="content">
@@ -36,24 +36,33 @@
             <div id="search">
                 <form style="text-align:center; font-size:17px; margin:0px; border:0px;" method="GET";>
                     <input type="text" name="SearchText" id="SearchText" value="Input a Movie name or Movie Id" class="search">
-                    <input type="submit" name="getSearchFilm" formaction="/Search" value = "搜索一下" class="submit">
+                    <input type="submit" name="getSearchFilm" formaction="/Controller.Search" value = "搜索一下" class="submit">
                 </form>
             </div>
             <!--推荐栏-->
-            <div id="recommend">
-                <div id="smallBox">
-                    <div id="smallBoxLeft">拥有最多评分量</div>
-                    <div id="smallBoxRight"><a href="src/html/change.html">换一批</a></div>
-                </div><br>
-                <div id="Recommend1"><br><br>
-                    <input id="hiddenText" name="submit" type="hidden" value="想想怎么用Onload让不用点击也能显示文字" onclick="getRecommend1()">
+            <div id="recommend-left-img"></div>
+            <div id="recommend-right">
+                <div id="Recommend"></div><br />
+                <div id="Result"><p>推荐算法名称：<span id="AlgorithmName"></span></p><p>推荐系统评价标准</p>推荐准确率（算法推荐成功的比率）precision=<span id="AlgorithmPrecision"></span> <p>召回率（待推荐项目被推荐的比率）recall=<span id="AlgorithmRecall"></span></p>
                 </div>
-                <div id="smallBox2">
-                    <div id="smallBoxLeft2">猜你喜欢</div>
-                    <div id="smallBoxRight2"><a href="src/html/change.html">换一批</a></div>
-                </div><br>
-                <div id="Recommend2"><br><br>请登录后再操作</div>
-                <div id="Result"><p>推荐系统评价标准</p>推荐准确率（算法推荐成功的比率）precision=..%<br>  召回率（待推荐项目被推荐的比率）recall=..%<br>
+                <div id="Model">
+                    <ul>
+                        <li><a href="">基于记忆的协同过滤推荐系统</a> </li>
+                        <ul>
+                            <li>基于用户的协同过滤推荐算法</li>
+                            <li>基于项目的协同过滤推荐算法</li>
+                            <li>……</li>
+                        </ul>
+                        <li><a href="">基于模型的协同过滤推荐系统</a> </li>
+                        <ul>
+                            <li>矩阵分解模型</li>
+                            <li>……</li>
+                        </ul>
+                        <li><a href="">基于卷积神经网络的协同过滤推荐系统</a> </li>
+                    </ul>
+                    <!--<input type="button" onclick="" value="基于记忆的协同过滤推荐系统" id="memory-based" width="40px">-->
+                    <!--<input type="button" onclick="" value="基于模型的协同过滤推荐系统" id="model-based" width="20em">-->
+                    <!--<input type="button" onclick="" value="基于卷积神经网络的协同过滤推荐系统" id="2017-neural" width="20em">-->
                 </div>
             </div>
         </div>

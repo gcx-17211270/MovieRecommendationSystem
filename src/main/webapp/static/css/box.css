@@ -1,0 +1,45 @@
+/*      公共属性
+---------------------------------------------------------- */
+html {width : 100%; }
+body { width:100%; color: #000; font-size: 14px;/* line-height: 160%; *//*text-align:center;*/ background : #DDDDDD; font-family: "宋体", "新宋体", Arial, Verdana, sans-serif;}
+/*      顶部布局
+---------------------------------------------------------- */
+#top { width: 90%; /*height:30px; */margin-right:auto; margin-left:auto; padding:0px; background:grey;
+    /*background:url("../img/ride.gif") #fff repeat-x left top;background-size:64px 40px;*/
+}
+#topLeft {width:50%; height:30px; text-align:left; background:grey; font-size:20px; color:#FFDDFF; float:left;}
+#topRight {width:50%; height:30px; text-align:right; background:grey; font-size:15px; float:right;}
+#topImg {width:100%; margin-right:auto; margin-left:auto; margin-bottom:auto; padding:0px; height:110px; }
+/*      主体布局
+---------------------------------------------------------- */
+#main {width:90%; height: 700px; margin-right:auto; margin-left:auto; padding:1.2em 0px;background:darkgray;}
+#content {width:90%; height: 680px; margin-right:auto; margin-left:auto; padding:1em; background:#fff;}
+/*大标题*/
+#title {font-weight:bold; margin: 0px 0px 0.5em 0px; padding:0.5em 0px 0.5em 1em; font-size:24px; color: #00A06B; text-align:left; border-bottom:solid #9EA3C1 2px;}
+.sub {font-weight:bold; margin:0px 0px 0.5em 0px; padding:0.5em 0px 0.5em 1em; font-size:13px; color:#00A06B; text-align:left;}
+#search {magin:auto;}
+/*      底部布局
+---------------------------------------------------------- */
+#recommend-left-img {width:54%;height:500px; float:left; padding:1em;border-style:dashed; margin-top:1em;}
+#recommend-right {width:40%; height:500px; float:right; padding:1em; border-style:dotted; margin-top:1em;}
+/*#smallBoxLeft {width:50%; font-size:10px; float:left; text-align:left;}*/
+/*#smallBoxRight {width:50%; font-size:10px; float:right; text-align:right;}*/
+/*#smallBoxLeft2{width:50%; font-size:10px; float:left; text-align:left;}*/
+/*#smallBoxRight2{width:50%; font-size:10px; float:right; text-align:right};*/
+/*推荐内容区间*/
+#Recommend {width:98%; height:310px; border-style:dashed;/* text-align:center;*/ }
+#Result {width:40%; height:170px; border-style:dotted; float:left;}
+#AlgorithmName{}                                /*算法名称*/
+#AlgorithmPrecision{}                           /*Precision指标*/
+#AlgorithmRecall{}                              /*Recall指标*/
+#Model{width:55%; height:170px; border-style:dotted; font-size:small; float:right;}  /*算法切换*/
+
+input.search {                                /*搜索框*/
+    width: 500px; height: 36px;cursor:pointer;border-radius: 10px 0 0 10px; margin: 0;
+    align:center;
+}
+input.submit {                                /*提交框*/
+    width: 100px;height: 40px;cursor:pointer; border-radius: 0 10px 10px 0;border:none;
+}
+
+#footer {position:absolute; height: 50px; width: 100%; display: block; margin-top: 50px; margin-left: 30px; bottom:0px;}

@@ -13,14 +13,14 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>RELEASE</version>
+            <version>4.13.2</version>
         </dependency>
 
         <!--mysql驱动-->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>RELEASE</version>
+            <version>8.0.23</version>
             <scope>compile</scope>
         </dependency>
 
@@ -28,7 +28,7 @@
         <dependency>
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
-            <version>RELEASE</version>
+            <version>1.2.17</version>
         </dependency>
         <!--对CSV文件操作-->
         <!--<dependency>-->
@@ -36,13 +36,40 @@
             <!--<artifactId>commons-csv</artifactId>-->
             <!--<version>1.8</version>-->
         <!--</dependency>-->
+
+        <!--社区十分活跃且更新速度很快JSON解析类库-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.47</version>
+        </dependency>
+
+        <!--Servlet api的处理（J2EE的内容而非Java SE）-->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>4.0.1</version>
+            <scope>compile</scope>
+        </dependency>
+
+
+        <!--mybatis包，将java代码中的sql语句独立出来，并且有其他优势-->
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis</artifactId>
+            <version>3.5.6</version>
+        </dependency>
     </dependencies>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
     </properties>
+
+    <build>
+        <!--对于不在resource目录下的其他资源文件的定位问题，在这里标注-->
+    </build>
 
 </project>
