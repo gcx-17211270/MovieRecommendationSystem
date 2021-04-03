@@ -236,7 +236,7 @@
           <entry key="CSS" value="845" />
           <entry key="HTML" value="5533" />
           <entry key="IDEA_MODULE" value="3" />
-          <entry key="JAVA" value="4388" />
+          <entry key="JAVA" value="4403" />
           <entry key="JavaScript" value="3860" />
           <entry key="PLAIN_TEXT" value="76" />
           <entry key="Properties" value="109" />
@@ -266,11 +266,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Mapper/ConnMySQL.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+            <state relative-caret-position="467">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -296,11 +296,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Controller/MostRatingsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
-              <caret line="60" column="33" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
+            <state relative-caret-position="25">
+              <caret line="48" column="48" lean-forward="true" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -586,17 +586,6 @@
             <path>
               <item name="recommend" type="b2602c69:ProjectViewProjectNode" />
               <item name="recommend" type="462c0819:PsiDirectoryNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="recommend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recommend" type="462c0819:PsiDirectoryNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="result" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="recommend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recommend" type="462c0819:PsiDirectoryNode" />
               <item name="sql" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -693,7 +682,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1617437560755" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1617438317459" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -936,7 +925,7 @@
       <workItem from="1617237321525" duration="2875000" />
       <workItem from="1617240280988" duration="5029000" />
       <workItem from="1617268192950" duration="739000" />
-      <workItem from="1617367981895" duration="6057000" />
+      <workItem from="1617367981895" duration="6728000" />
     </task>
     <servers />
   </component>
@@ -973,7 +962,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="195269000" />
+    <option name="totallyTimeSpent" value="195940000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -986,9 +975,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1519" height="977" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.39834514" visible="true" weight="0.2128679" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.39834514" visible="true" weight="0.2128679" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -1005,7 +993,7 @@
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.33096927" />
       <window_info anchor="bottom" id="Application Servers" order="8" weight="0.3286052" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.28757396" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.28757396" />
       <window_info anchor="bottom" id="CheckStyle" order="10" weight="0.3289941" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50034225" side_tool="true" weight="0.29196218" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49965778" weight="0.32662722" />
@@ -1358,13 +1346,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Mapper/ConnMySQL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Mapper/MostRatingsDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -1384,8 +1365,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Controller/MostRatingsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="60" column="33" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
+        <state relative-caret-position="25">
+          <caret line="48" column="48" lean-forward="true" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Mapper/ConnMySQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
