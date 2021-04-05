@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!--
-作用：使用mybatis实现的接口实现类
+作用：使用mybatis实现的推荐结果搜索接口实现类
 日期：2021-04-03
 -->
 <!DOCTYPE mapper
