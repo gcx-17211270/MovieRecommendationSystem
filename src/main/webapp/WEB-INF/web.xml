@@ -6,6 +6,6 @@
 
     <!--监听侦-->
     <listener>
-        <listener-class>Utils.MyContextListener</listener-class>
+        <listener-class>utils.MyContextListener</listener-class>
     </listener>
 </web-app>

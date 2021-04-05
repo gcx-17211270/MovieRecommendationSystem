@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+作用：使用mybatis实现的对电影内容数据搜索接口实现类
+日期：2021-04-05
+-->
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace命名空间，包名与接口一致-->
+<mapper namespace="mapper.SearchMovieMapper">
+    <select id="searchMovieIdForInfo" resultType="movie" parameterType="int">
+        SELECT *
+        FROM movies
+        WHERE movieId = #{movieId}
+        LIMIT 5;
+    </select>
+
+    <select id="searchMovieIdForRatings" resultType="rating" parameterType="int">
+        SELECT *
+        FROM ratings
+        WHERE movieId = #{movieId}
+        LIMIT 5;
+    </select>
+
+    <select id="searchMovieIdForTags" resultType="tag" parameterType="int">
+        SELECT *
+        FROM tags
+        WHERE movieId = #{movieId}
+        LIMIT 5;
+    </select>
+
+    <select id="searchMovieNameForInfo" resultType="movie" parameterType="String">
+    SELECT *
+    FROM movies
+    WHERE
+        title LIKE #{movieName};
+    </select>
+</mapper>

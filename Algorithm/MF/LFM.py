@@ -12,7 +12,7 @@ import math
 from collections import defaultdict
 
 import utils
-from MF.utils import LogTime
+from utils import LogTime
 
 
 class LFM:
@@ -246,5 +246,14 @@ class LFM:
         popularity = popular_sum / (1.0 * rec_count)
         print('Test recommendation system success.')
         test_time.finish()
+
+        oldstdout = sys.stdout
+        file=open('../result/LFMResult.txt','w')
+        sys.stdout=file
+        print ('precision=%.4f\nrecall=%.4f\ncoverage=%.4f\npopularity=%.4f' %
+               (precision, recall, coverage, popularity))
+        file.close()
+        sys.stdout = oldstdout
+
         print('precision=%.4f\trecall=%.4f\t\ncoverage=%.4f\t\tpopularity=%.4f\n' %
               (precision, recall, coverage, popularity))

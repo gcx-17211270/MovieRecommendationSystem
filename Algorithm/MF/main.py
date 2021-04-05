@@ -5,10 +5,10 @@
 
 import utils
 
-from MF.LFM import LFM
-from MF.dataset import DataSet
+from LFM import LFM
+from dataset import DataSet
 
-from MF.utils import LogTime
+from utils import LogTime
 
 
 def run_model(model_name, dataset_name, test_size=0.3, clean=False):

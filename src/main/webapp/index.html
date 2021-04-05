@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>电影推荐系统</title>
     <link href="static/css/box.css" type="text/css" rel="stylesheet">
 
     <!--<script type="text/javascript" src="jquery.js"></script>-->
     <script type="text/javascript" src="static/JavaScript/xmlHttpObject.js"></script>
-    <script type="text/javascript" src="static/JavaScript/index.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="static/JavaScript/index.js"></script>
     <script>
         window.onload = function() {
             getMostRatings();
+            getAlgorithmName();
         }
     </script>
 </head>
@@ -20,11 +21,11 @@
         <div id="topLeft">
             基于协同过滤算法的电影推荐系统
         </div>
-        <div id="topRight">
-            <input id="sayhello" name="submit" type="button" value="Hello" onclick="simple_ajax()">
-            <a href="static/html/login.html">登录</a>
-            <a href="static/html/root.html">我的账户</a>
-        </div>
+        <!--<div id="topRight">-->
+            <!--<input id="sayhello" name="submit" type="button" value="Hello" onclick="simple_ajax()">-->
+            <!--<a href="static/html/login.html">登录</a>-->
+            <!--<a href="static/html/root.html">我的账户</a>-->
+        <!--</div>-->
         <!--用户登录，网站名称-->
         <div id="topImg"><!--<img src="res/img/page.jpg" height="100%">--></div>
     </div>
@@ -35,34 +36,46 @@
             <!--搜索栏-->
             <div id="search">
                 <form style="text-align:center; font-size:17px; margin:0px; border:0px;" method="GET";>
-                    <input type="text" name="SearchText" id="SearchText" value="Input a Movie name or Movie Id" class="search">
-                    <input type="submit" name="getSearchFilm" formaction="/Controller.Search" value = "搜索一下" class="submit">
+                    <input type="text" name="SearchText" id="SearchText" value="请输入电影名或电影ID" class="search" onfocus="if(value=='请输入电影名或电影ID') value='';">
+                    <input type="button" name="getSearchFilm" onclick="searchMovie()" value = "搜索一下" class="submit">
                 </form>
             </div>
             <!--推荐栏-->
-            <div id="recommend-left-img"></div>
+            <!--原比例：3840*2160框的比例：591.41*500-->
+            <div id="recommend-left-img">
+                <div><img src="res/img/Forrest_Gump_1994.jpg" height = 332.68px width = 591.41px></div>
+                <div style="height:167px; overflow: hidden"><img src="res/img/shawshank_redemption.jpg" width= 591.41px; style="margin: -550px -200px 0 0;"></div>
+            </div>
             <div id="recommend-right">
-                <div id="Recommend"></div><br />
-                <div id="Result"><p>推荐算法名称：<span id="AlgorithmName"></span></p><p>推荐系统评价标准</p>推荐准确率（算法推荐成功的比率）precision=<span id="AlgorithmPrecision"></span> <p>召回率（待推荐项目被推荐的比率）recall=<span id="AlgorithmRecall"></span></p>
+                <div id="Recommend">
+                    <div>
+                        <span id="name" style="width: 10em; display:inline-block;">评分最多的电影</span>
+                        <span style="float: right">
+                            <input id="userId" type="text" value="请输入待查询用户" onfocus="if(value='请输入待查询用户')value=''">
+                            <input id="searchUser" type="button" onclick="recommend_for_user()" value="推荐结果">
+                        </span>
+                    </div>
+                    <div id="Recommend-result"></div>
+                </div><br />
+                <div id="Result">
+                    <p>推荐算法名称：<span id="AlgorithmName"></span></p>
+                    <p>推荐系统评价标准</p>
+                    <p>precision=<span id="AlgorithmPrecision"></span></p>
+                    <p>recall=<span id="AlgorithmRecall"></span></p>
+                    <p>coverage=<span id="AlgorithmCoverage"></span></p>
+                    <p>popularity=<span id="AlgorithmPopularity"></span></p>
                 </div>
                 <div id="Model">
-                    <ul>
-                        <li><a href="">基于记忆的协同过滤推荐系统</a> </li>
-                        <ul>
-                            <li>基于用户的协同过滤推荐算法</li>
-                            <li>基于项目的协同过滤推荐算法</li>
-                            <li>……</li>
-                        </ul>
-                        <li><a href="">基于模型的协同过滤推荐系统</a> </li>
-                        <ul>
-                            <li>矩阵分解模型</li>
-                            <li>……</li>
-                        </ul>
-                        <li><a href="">基于卷积神经网络的协同过滤推荐系统</a> </li>
-                    </ul>
-                    <!--<input type="button" onclick="" value="基于记忆的协同过滤推荐系统" id="memory-based" width="40px">-->
-                    <!--<input type="button" onclick="" value="基于模型的协同过滤推荐系统" id="model-based" width="20em">-->
-                    <!--<input type="button" onclick="" value="基于卷积神经网络的协同过滤推荐系统" id="2017-neural" width="20em">-->
+                    <form>
+                        基于用户的协同过滤推荐算法:
+                        <input type="radio" checked="checked" name="model" value="userBasedCF" onclick="getAlgorithmName()"/><br />
+                        基于项目的协同过滤推荐算法：
+                        <input type="radio" name="model" value="itemBasedCF" onclick="getAlgorithmName()"/><br />
+                        基于矩阵分解的协同过滤推荐算法：
+                        <input type="radio" name="model" value="LFM" onclick="getAlgorithmName()"/><br />
+                        其他待补充：
+                        <input type="radio" name="model" value="" onclick="getAlgorithmName()"/>
+                    </form>
                 </div>
             </div>
         </div>

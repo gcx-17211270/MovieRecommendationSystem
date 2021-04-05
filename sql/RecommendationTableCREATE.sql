@@ -20,4 +20,13 @@ CREATE TABLE LFM(
     score FLOAT
 ) COMMENT='矩阵分解模型——潜在因子模型(Latent Factor Model)';
 
+-- precision是关键字吗？在这儿不可用
+CREATE TABLE RESULT(
+  algo TEXT,
+  prec DOUBLE,
+  recall DOUBLE,
+  coverage DOUBLE,
+  popularity DOUBLE
+) COMMENT='算法评价指标';
+
 show tables;

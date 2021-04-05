@@ -6,11 +6,11 @@ import org.junit.Test;
 public class RecommendationTest {
     @Test
     public void testRecommendation() {;
-        Recommendation rec = new Recommendation(1, 2, (float) 12.89);
-        System.out.println(rec.getResult());
-        System.out.println(rec.getResult().toString());
-
-        assert rec.getResult() instanceof JSONObject;
+//        Recommendation rec = new Recommendation(1, 2, (float) 12.89);
+//        System.out.println(rec.getResult());
+//        System.out.println(rec.getResult().toString());
+//
+//        assert rec.getResult() instanceof JSONObject;
 
         String s = "{" +
                 "\"1\": \"[('2011', 37.26389549621345), ('1527', 32.43401085554542), " +

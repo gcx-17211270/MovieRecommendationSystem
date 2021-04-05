@@ -11,10 +11,12 @@ import json
 
 import pymysql
 
+
 class ConnMySQL:
     """
     获得数据库连接，包括从数据库中查询数据，以及从本地文件中向数据库中写入数据
     """
+
     def __init__(self, root, password, database, charset="utf8"):
         self.root = root
         self.password = password
@@ -31,12 +33,12 @@ class ConnMySQL:
         return result
 
     # 从本地加载字典格式的数据添加到数据库中，文件名即对应的数据库表名
-    def store_result(self, filename):
+    def store_data(self, filename):
         tableName = filename.split(".")[0];
         sql = "TRUNCATE TABLE " + tableName
         print(sql)
         conn = pymysql.connect(user=self.root, passwd=self.password, host="localhost",
-                             database=self.database, charset=self.charset)
+                               database=self.database, charset=self.charset)
         cursor = conn.cursor()
 
         try:
@@ -53,11 +55,13 @@ class ConnMySQL:
         js = file.read()
         # python对json数据的读取对象的每个属性都要有双引号，否则数据不能正常加载
         # 这里的一系列代换都是为了符合loads的要求
-        js = js.replace(" ", "").replace("[", "\"[").replace("]", "]\"")\
-            .replace("{\'", "{\"").replace("\'}", "\"}")\
+        js = js.replace(" ", "").replace("[", "\"[").replace("]", "]\"") \
+            .replace("{\'", "{\"").replace("\'}", "\"}") \
             .replace("\",\'", "\",\"").replace("\':", "\":")
         dic = json.loads(js)
+        i = int(0)
         for key in dic.keys():
+            i = i + 1
             vals = dic.get(key)[2:-2].replace("\'", "").split("),(")
             for j in range(len(vals)):
                 id = int(key)
@@ -65,8 +69,10 @@ class ConnMySQL:
                 rec = int(info[0])
                 score = float(info[1])
                 sql = "INSERT " + tableName + \
-                                   " VALUES(" + str(id) + "," + str(rec) + "," + str(score) + ")"
-                print(sql)
+                      " VALUES(" + str(id) + "," + str(rec) + "," + str(score) + ")"
+                if i % 100 == 1 and j == 0:
+                    print("insert data for %d users" % i)
+                    print(sql)
                 try:
                     cursor.execute(sql)
 
@@ -76,10 +82,55 @@ class ConnMySQL:
                     print("事务处理失败", e, sys.stderr)
                 else:
                     conn.commit()
-                    print("事务处理成功", cursor.rowcount)
+                    # print("事务处理成功", cursor.rowcount)
         file.close()
         cursor.close()
         conn.close()
+
+    def store_result(self, filename):
+        file = open("result/" + filename, "r")
+        algo = filename[0:-10]
+        map = {}
+        while True:
+            line = file.readline()
+            if line:
+                lineArray = line.split('=')
+                map[lineArray[0]] = lineArray[1].replace("\n", "")
+            else:
+                break
+        sql = "INSERT result" + \
+              " VALUES(\"" + algo + "\"," + map.get("precision") + "," + map.get("recall") \
+              + "," + map.get("coverage") + "," + map.get("popularity") + ")"
+        print(sql)
+        conn = pymysql.connect(user=self.root, passwd=self.password, host="localhost",
+                               database=self.database, charset=self.charset)
+        cursor = conn.cursor()
+
+        try:
+            cursor.execute(sql)
+        except pymysql.Error as e:
+            conn.rollback()
+            print(pymysql.Error)
+            print("事务处理失败", e)
+        else:
+            conn.commit()
+            print("数据表信息插入完成", cursor.rowcount)
+
+    def clear_table(self, tableName):
+        sql = "TRUNCATE TABLE " + tableName
+        conn = pymysql.connect(user=self.root, passwd=self.password, host="localhost",
+                               database=self.database, charset=self.charset)
+        cursor = conn.cursor()
+
+        try:
+            cursor.execute(sql)
+        except pymysql.Error as e:
+            conn.rollback()
+            print(pymysql.Error)
+            print("事务处理失败", e)
+        else:
+            conn.commit()
+            print("数据表清理完成", cursor.rowcount)
 
 
 if __name__ == '__main__':
@@ -95,6 +146,11 @@ if __name__ == '__main__':
 
     # 对计算结果存储到数据库中
     a = ConnMySQL("root", "17211270", "movies_data2")
-    a.store_result("itemBasedCF.txt")
-    a.store_result("userBasedCF.txt")
-    a.store_result("LFM.txt")
+    # a.store_data("itemBasedCF.txt")
+    # a.store_data("userBasedCF.txt")
+    # a.store_data("LFM.txt")
+    # 将算法评价指标存储到数据库中
+    a.clear_table("Result")
+    a.store_result("itemBasedCFResult.txt")
+    a.store_result("userBasedCFResult.txt")
+    a.store_result("LFMResult.txt")

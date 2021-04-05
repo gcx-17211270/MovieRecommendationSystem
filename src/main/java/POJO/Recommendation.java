@@ -16,9 +16,9 @@ import java.util.Arrays;
 public class Recommendation {
     private int id;
     private int recommendation;
-    private float score;
+    private double score;
 
-    public Recommendation(int id, int recommendation, float score) {
+    public Recommendation(int id, int recommendation, double score) {
         this.id = id;
         this.recommendation = recommendation;
         this.score = score;
@@ -29,6 +29,7 @@ public class Recommendation {
         return "{" +
                 "\"id\":\"" + id +
                 "\", \"recommendation\":\"" + recommendation +
+                "\", \"score\":\"" + score +
                 "\"}";
     }
 
@@ -56,7 +57,7 @@ public class Recommendation {
         return recommendation;
     }
 
-    public float getScore() {
+    public double getScore() {
         return score;
     }
 }
