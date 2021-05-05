@@ -3,8 +3,6 @@
 recommend.iml,8\9\891b57712608a01827459a9e065a54f6e3aeb00d
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
-c
-3src/main/webapp/temp/_19Ajax/createXMLHTTPObject.js,7\e\7e1beb5226ee68a12b687d8e1757800c0319a378
 O
 src/main/webapp/WEB-INF/web.xml,2\e\2e22b6edd746fa3dc40ad7276c87c8d87d72a392
 J
@@ -53,16 +51,6 @@ D
 Algorithm/MF/main.py,c\6\c61974abd64a3d121626a7139805b0abaebb2396
 Q
 !sql/RecommendationTableCREATE.sql,7\4\7458779ccfb0ab421e2422218712ea7ad244c982
-T
-$src/main/webapp/temp/_1607/blank.htm,3\3\335793d25eb77e8459ed8187739ecb672f81b96f
-T
-$src/main/webapp/temp/_1607/index.htm,1\f\1fa0d78cd46d54fe7d68577b36d9428b5b8ed627
-S
-#src/main/webapp/temp/_1607/main.htm,3\5\3586647194903d14a8f7990dd9ef11a6998fc67e
-U
-%src/main/webapp/temp/_1607/server.htm,e\e\eebb7c9aa8db2e247cda789e01e5d0c9170289ea
-V
-&src/main/webapp/temp/_1607/server2.htm,7\c\7c74ff667460b8be6ba3fffae14417b384feba5b
 Z
 *src/main/java/utils/MyContextListener.java,5\9\590a17d517ad6e6600a57a757c1495ec1fa858bc
 c
@@ -169,3 +157,13 @@ a
 1src/main/java/controller/RecommendController.java,5\d\5d5a3c8a35f79b7af8e40cdab4e8b96f817e7a3e
 S
 #src/main/java/mapper/ResultDao.java,e\6\e6862a525b548d8d1348c40869e298641766cd9e
+U
+%src/main/webapp/static/html/root.html,7\2\7211ef514a04b0a3aa80f4f3050e46d700ead3b7
+X
+(src/main/webapp/static/css/recommend.css,0\2\02c3963d98276d6debf1f0bedcca8d6a81771b7c
+X
+(src/main/webapp/static/css/ref/input.css,5\9\590c7e15d05f45def9a78d658c41f5940a168f5c
+X
+(src/main/webapp/static/css/ref/table.css,4\f\4f370afa2bc9eaf149f0e524e2dad9a696fadd0f
+X
+(src/main/webapp/static/css/ref/radio.css,9\0\906df3f46653825c9a45cabffe975ef43d2cecc2

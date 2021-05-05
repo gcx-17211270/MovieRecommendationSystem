@@ -34,7 +34,7 @@ public class MostRatingsImpl implements MostRatingsDao {
                 "WHERE r.movieId = m.movieId " +
                 "GROUP BY r.movieId " +
                 "ORDER BY rated DESC " +
-                "LIMIT 8; ";
+                "LIMIT 10; ";
 
         try {
             conn = ConnMySQL.connectMovieData("movies_data2");

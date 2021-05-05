@@ -1,4 +1,10 @@
 
+a
+java:S2147?"DCombine this catch with the one at line 61, which has the same body.(Å¡ß8òµÀó/
 E
-java:S1148#"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8åú“¼‰/
-m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿåà“8åú“¼‰/
+java:S1148@"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8òµÀó/
+E
+java:S1148,"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8åú“¼‰/
+E
+java:S1148>"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8òµÀó/
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿåà“8åú“¼‰/

@@ -8,6 +8,8 @@ import org.apache.log4j.Logger;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.lang.reflect.Field;
+import java.util.Properties;
 
 /**
  * 类           RecommendationUtils
@@ -29,13 +31,38 @@ public class RecommendationUtils {
         Logger Log = Logger.getLogger(RecommendationUtils.class);
         String resource = "mybatis-config.xml";
         InputStream inputStream = null;
+        Properties prop = new Properties();
         try {
+            // 对数据库配置文件的解密
+            inputStream = Resources.getResourceAsStream("db.properties");
+            prop.load(inputStream);
+            String password = prop.getProperty("password");
+            decode(password);
+            prop.put("password", password);
             inputStream = Resources.getResourceAsStream(resource);
         } catch (IOException e) {
             e.printStackTrace();
             Log.error(e);
         }
-        sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
+        sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream, prop);
+    }
+
+    private static void decode(String password) {
+        // 炫个技，用反射修改String（不可变）类的内容(会报Warning)
+        try {
+            // 通过反射，将String中定义为private final byte[] value;的数组内容进行修改
+            Field value = password.getClass().getDeclaredField("value");
+            value.setAccessible(true);
+            byte[] ch = (byte[])value.get(password);
+            for (int i = 0; i < ch.length; i++) {
+                // 学号中未涉及异常情况，所以直接修改
+                ch[i] --;
+            }
+        } catch (NoSuchFieldException e) {
+            e.printStackTrace();
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        }
     }
 
     public static SqlSession getSqlSession() {

@@ -1,16 +1,3 @@
-//J2EE对Ajax的响应（一个测试按钮）
-function simple_ajax() {
-    var xmlhttp = createXMLHTTPObject();
-    var input = document.getElementById("sayhello");
-    var sUrl = "SimpleAjax?name=guys";
-    xmlhttp.onreadystatechange = function() {
-        if (xmlhttp.readyState == 4) {
-            alert(xmlhttp.responseText);
-        }
-    };
-    xmlhttp.open('GET', sUrl);
-    xmlhttp.send(null);
-}
 
 function getMostRatings() {
     var xmlhttp = createXMLHTTPObject();
@@ -18,7 +5,24 @@ function getMostRatings() {
     xmlhttp.onreadystatechange = function() {
         if (xmlhttp.readyState == 4) {
             // alert(xmlhttp.responseText);
-            document.getElementById("Recommend-result").innerHTML = xmlhttp.responseText;
+            var jsonArray = JSON.parse(xmlhttp.responseText);
+
+            var htmlContent = "" +
+                "<ul class=\"responsive-table\">" +
+                "<li class=\"table-header\">" +
+                "<div class=\"col col-1\">movie_title</div>" +
+                "<div class=\"col col-2\">movie_genres\t</div>" +
+                "<div class=\"col col-3\">rating(s)</div>" +
+                "</li>" ;
+            for (var i = 0; i < jsonArray.length; i++) {
+                htmlContent += "<li class=\"table-row\">" +
+                    "    <div class=\"col col-1\" data-label=\"Job Id\">" + jsonArray[i].title + "</div>" +
+                    "    <div class=\"col col-2\" data-label=\"Customer Name\">" + jsonArray[i].genres + "</div>" +
+                    "    <div class=\"col col-3\" data-label=\"Amount\">" + jsonArray[i].ratingsNum + "</div>" +
+                    "</li>";
+            }
+            htmlContent += "</ul>";
+            document.getElementById("Recommend-result").innerHTML = htmlContent;
         }
     };
     xmlhttp.open('POST', sUrl);
@@ -29,7 +33,7 @@ function getMostRatings() {
 function recommend_for_user() {
     var xmlhttp = createXMLHTTPObject();
     if(!isNaN(document.getElementById("userId").value)) {
-        var radio = document.getElementsByName("model");
+        var radio = document.getElementsByName("radio");
         var tableName = "";
         for (i=0; i<radio.length; i++) {
             if (radio[i].checked) {
@@ -43,29 +47,31 @@ function recommend_for_user() {
                 if (s.trim() + "" ==  "未查找到相关用户信息")
                     alert(xmlhttp.responseText);
                 else {
-                    var radio = document.getElementsByName("model");
+                    var radio = document.getElementsByName("radio");
                     var tableName = "";
                     for (i=0; i<radio.length; i++) {
                         if (radio[i].checked) {
                             tableName = radio[i].value;
                         }
                     }
+
                     //对输出结果的json数组处理
                     var jsonArray = JSON.parse(xmlhttp.responseText);
-                    document.getElementById("name").innerHTML = "用户 " + jsonArray[1].id + "的推荐内容"
+                    document.getElementById("name").innerHTML = "用户" + jsonArray[1].id + "的推荐内容"
                                     + "(" + tableName + ")";
-                    var htmlContent =
-                        "<table style='border:3px solid gray;width: 100%;'>" +
-                        "<tr style='border:1px solid gray; text-align:center;'>" +
-                            "<th>recommendation</th><th>score</th>" +
-                        "</tr>";
+                    var htmlContent = "" +
+                        "<ul class=\"responsive-table\">" +
+                        "<li class=\"table-header\">" +
+                        "<div class=\"col col-1\">recommendation</div>" +
+                        "<div class=\"col col-2\">score</div>" +
+                        "</li>" ;
                     for (var i = 0; i < jsonArray.length; i++) {
-                        htmlContent += "<tr style='border:1px solid gray;'>" +
-                            "<td>"+jsonArray[i].recommendation + "</td>" +
-                            "<td>" + jsonArray[i].score + "</td>"
-                            "</tr>"
+                        htmlContent += "<li class=\"table-row\">" +
+                            "    <div class=\"col col-1\" data-label=\"Job Id\">" + jsonArray[i].recommendation + "</div>" +
+                            "    <div class=\"col col-2\" data-label=\"Customer Name\">" + jsonArray[i].score + "</div>" +
+                            "</li>";
                     }
-                    htmlContent += "</table>";
+                    htmlContent += "</ul>";
                     document.getElementById("Recommend-result").innerHTML = htmlContent;
                 }
             }
@@ -79,15 +85,16 @@ function recommend_for_user() {
 }
 
 function searchMovie() {
-    alert(str);
     var str = document.getElementById("SearchText").value;
     //输入了电影名模糊查询
     if (isNaN(str)) {
         var sUrl = "SearchName?movieName=" + str;
+        document.getElementById("name").innerHTML = '根据电影名查询结果为：';
     }
     //输入了电影ID
     else {
         var sUrl = "SearchId?movieId=" + str;
+        document.getElementById("name").innerHTML = '根据电影ID查询结果为：';
     }
     var xmlhttp = createXMLHTTPObject();
     xmlhttp.onreadystatechange = function() {
@@ -98,47 +105,83 @@ function searchMovie() {
                 alert("未查找到相关信息");
             }
             else if (textArray.length == 3) {
-                var htmlContent = "<p>电影基本信息：</p>";
+                var htmlContent = "<p style='margin-left: 4rem;'>电影基本信息：</p>";
                 var jsonArray = JSON.parse(textArray[0]);
-                htmlContent += "<table style='border:3px solid gray;width: 100%;text-align:center;'>" +
-                    "<tr style='border:1px solid gray; '>" +
-                    "<th>movieId</th><th>title</th><th>genres</th></tr>" +
-                    "<tr><td>" + jsonArray[0].movieId + "</td><td>" + jsonArray[0].title + " </td><td>" + jsonArray[0].genres + " </td></tr>"+
-                    "</table>";
-                htmlContent += "<p>观看过的用户评分情况如下：</p>";
-                jsonArray = JSON.parse(textArray[1]);
-                htmlContent += "<table style='border:3px solid gray;width: 100%;text-align:center;'>" +
-                    "<tr style='border:1px solid gray; text-align:center;'>" +
-                    "<th>userId</th><th>movieId</th><th>rating</th><th>timestamp</th></tr>";
-                for (var i = 0; i < jsonArray.length; i++) {
-                    htmlContent += "<tr>" +
-                        "<td>" + jsonArray[i].userId + "</td><td>" + jsonArray[i].movieId + "</td><td>" + jsonArray[i].rating + " </td><td>" + jsonArray[i].timestamp + " </td></tr>"
-                }
-                htmlContent += "</table>"
 
-                htmlContent += "<p>观看过的用户标识Tag情况如下：</p>";
-                jsonArray = JSON.parse(textArray[2]);
-                htmlContent += "<table style='border:3px solid gray;width: 100%;text-align:center;'>" +
-                    "<tr style='border:1px solid gray; text-align:center;'>" +
-                    "<th>userId</th><th>movieId</th><th>tag</th><th>timestamp</th></tr>";
-                for (var i = 0; i < jsonArray.length; i++) {
-                    htmlContent += "<tr>"+
-                        "<td>" + jsonArray[i].userId + "</td><td>" + jsonArray[i].movieId + "</td><td>" + jsonArray[i].tag + " </td><td>" + jsonArray[i].timestamp + " </td></tr>"
+                htmlContent += "" +
+                    "<ul class=\"responsive-table\">" +
+                    "<li class=\"table-header\">" +
+                    "<div class=\"col col-1\">movieId</div>" +
+                    "<div class=\"col col-2\">title</div>" +
+                    "<div class=\"col col-3\">genres</div>" +
+                    "</li>" +
+                    "<li class=\"table-row\">" +
+                    "    <div class=\"col col-1\">" + jsonArray[0].movieId + "</div>" +
+                    "    <div class=\"col col-2\">" + jsonArray[0].title + "</div>" +
+                    "    <div class=\"col col-3\">" + jsonArray[0].genres + "</div>" +
+                    "</li>" +
+                    "</ul>";
+
+                if (textArray[1].trim() != "[]") {
+                    htmlContent += "<p style='margin-left: 4rem;'>观看过的用户评分情况如下：</p>";
+                    jsonArray = JSON.parse(textArray[1]);
+
+                    htmlContent += "" +
+                        "<ul class=\"responsive-table\">" +
+                        "<li class=\"table-header\">" +
+                        "<div class=\"col col-1\">userId</div>" +
+                        "<div class=\"col col-2\">rating</div>" +
+                        "<div class=\"col col-3\">timestamp</div>" +
+                        "</li>";
+                    for (i = 0; i < jsonArray.length; i++) {
+                        htmlContent += "<li class=\"table-row\">" +
+                            "    <div class=\"col col-1\">" + jsonArray[i].userId + "</div>" +
+                            "    <div class=\"col col-2\">" + jsonArray[i].rating + "</div>" +
+                            "    <div class=\"col col-3\">" + jsonArray[i].timestamp + "</div>" +
+                            "</li>";
+                    }
+                    htmlContent +="</ul>";
                 }
-                htmlContent += "</table>"
-                document.getElementById("recommend-left-img").innerHTML = htmlContent;
+                if (textArray[2].trim() != "[]") {
+                    htmlContent += "<p style='margin-left: 4rem;'>观看过的用户标识Tag情况如下：</p>";
+                    jsonArray = JSON.parse(textArray[2]);
+
+                    htmlContent += "" +
+                        "<ul class=\"responsive-table\">" +
+                        "<li class=\"table-header\">" +
+                        "<div class=\"col col-1\">userId</div>" +
+                        "<div class=\"col col-3\">tag</div>" +
+                        "<div class=\"col col-3\">timestamp</div>" +
+                        "</li>";
+                    for (i = 0; i < jsonArray.length; i++) {
+                        htmlContent += "<li class=\"table-row\">" +
+                            "    <div class=\"col col-1\">" + jsonArray[i].userId + "</div>" +
+                            "    <div class=\"col col-2\">" + jsonArray[i].tag + "</div>" +
+                            "    <div class=\"col col-4\">" + jsonArray[i].timestamp + "</div>" +
+                            "</li>";
+                    }
+                    htmlContent +="</ul>";
+                }
+                document.getElementById("Recommend-result").innerHTML = htmlContent;
             }
             else if (textArray.length == 1) {
-                var htmlContent = "<p>电影基本信息：</p>";
+                var htmlContent = "<p style='margin-left: 4rem;'>电影基本信息：</p>";
                 var jsonArray = JSON.parse(textArray[0]);
-                htmlContent += "<table style='border:3px solid gray;width: 100%;text-align:center;'>" +
-                    "<tr style='border:1px solid gray; text-align:center;'>" +
-                    "<th>movieId</th><th>title</th><th>genres</th></tr>";
+                htmlContent += "<ul class=\"responsive-table\">" +
+                    "<li class=\"table-header\">" +
+                    "<div class=\"col col-1\">movieId</div>" +
+                    "<div class=\"col col-2\">title</div>" +
+                    "<div class=\"col col-3\">genres</div></li>" ;
                 for (var i = 0; i < jsonArray.length; i++) {
-                    htmlContent += "<tr><td>" + jsonArray[i].movieId + "</td><td>" + jsonArray[i].title + " </td><td>" + jsonArray[i].genres + " </td></tr>";
+                    htmlContent += "" +
+                        "<li class=\"table-row\">" +
+                        "    <div class=\"col col-1\">" + jsonArray[i].movieId + "</div>" +
+                        "    <div class=\"col col-2\">" + jsonArray[i].title + "</div>" +
+                        "    <div class=\"col col-3\">" + jsonArray[i].genres + "</div>" +
+                        "</li>";
                 }
-                htmlContent += "</table>";
-                document.getElementById("recommend-left-img").innerHTML = htmlContent;
+                htmlContent += "</ul>";
+                document.getElementById("Recommend-result").innerHTML = htmlContent;
             }
             else{
                 //&做分隔符在电影名中也可以找到，所以有时候会长度为2
@@ -151,14 +194,23 @@ function searchMovie() {
 }
 
 function getAlgorithmName() {
-    var radio = document.getElementsByName("model");
+    var radio = document.getElementsByName("radio");
     var tableName = "";
     for (i=0; i<radio.length; i++) {
         if (radio[i].checked) {
             tableName = radio[i].value;
         }
     }
-    document.getElementById("AlgorithmName").innerText = tableName;
+    var name = [{"en": "userBasedCF","cn": "基于用户的协同过滤推荐算法"},
+        {"en": "itemBasedCF", "cn": "基于项目的协同过滤推荐算法"},
+        {"en": "LFM","cn":  "基于矩阵分解的协同过滤推荐算法"}];
+    var str = '';
+    for (j in name){
+        if (name[j].en = tableName) {
+            str = name[j].cn;
+        }
+    }
+    // document.getElementById("AlgorithmName").innerText = str;
     sUrl = "getRecResult" + "?algoName=" + tableName;
     var xmlhttp = createXMLHTTPObject();
     xmlhttp.onreadystatechange = function() {
@@ -172,4 +224,24 @@ function getAlgorithmName() {
     }
     xmlhttp.open('GET', sUrl);
     xmlhttp.send(null);
+}
+
+
+function processKey1(e) {
+    if (null == e)
+        e = window.event ;
+    if (e.keyCode == 13)  {
+        searchMovie();
+        return false;
+    }
+}
+
+
+function processKey2(e) {
+    if (null == e)
+        e = window.event ;
+    if (e.keyCode == 13)  {
+        document.getElementById("searchUser").onclick();
+        return false;
+    }
 }

@@ -1,0 +1,55 @@
+
+#search {magin:auto;}
+
+#recommendDisplay {
+    padding:0 1rem 1rem 1rem;
+}
+
+/*推荐内容区间*/
+#Recommend {
+    margin: auto;width:100%;/* height:310px;*/ /* text-align:center;*/
+}
+#Recommend-result {
+    margin: auto;
+    min-height: 220px;
+    /*overflow: auto;*/
+}
+#Result li {
+    list-style: none;
+    padding: 0.8rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+#Result ul {
+    padding: 2em 0 0 0;
+}
+#Result {
+    border: solid 2px #b7ddf2;
+    padding: 0 1rem;
+    margin-left: 4rem;
+    margin-right: 1rem;
+}
+#radio{
+    width: 50%;
+    float: left;
+    padding: 10px 0 0 0;
+}
+#precision{
+    width: 50%;
+    float: right;
+}
+
+.search {                                /*搜索框*/
+    width: 500px; height: 36px;cursor:pointer;border-radius: 10px 0 0 10px; align:center;
+    font-size: 1rem; font-family: "Aktiv Grotesk","Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    margin-bottom: 1rem;
+}
+.submit {                                /*提交框*/
+    width: 100px;height: 40px;cursor:pointer; border-radius: 0 10px 10px 0;border:none;
+}
+
+

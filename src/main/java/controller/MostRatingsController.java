@@ -1,5 +1,6 @@
 package controller;
 
+import POJO.movie;
 import mapper.MostRatingsImpl;
 import org.apache.log4j.Logger;
 
@@ -12,6 +13,8 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * 类           MostRatingsController
@@ -38,22 +41,15 @@ public class MostRatingsController extends HttpServlet
         Logger Log = Logger.getLogger(MostRatingsController.class);
         ServletOutputStream os = resp.getOutputStream();
         MostRatingsImpl mostRatings = null;
+        List<movie> res = new ArrayList<>();
 
-        os.println("<table style='border:solid gray;'>" +
-                "<tr style='border:1px solid gray; text-align:center;'>" +
-                "<th>movie_title</th><th>movie_genres</th><th>rating(s)</th>" +
-                "</tr>");
         try {
             mostRatings = new MostRatingsImpl();
             ResultSet rs = mostRatings.getResult();
             while (rs.next()) {
-                os.println("<tr style='border:1px solid gray;'>" +
-                            "<td>"+rs.getString(1) + "</td>" +
-                            "<td>" + rs.getString(2) + "</td>" +
-                            "<td>" + rs.getInt(3) + "</td>" +
-                        "</tr>");
+                res.add(new movie(rs.getString(1), rs.getString(2), rs.getInt(3)));
             }
-            os.println("</table>");
+            os.println(res.toString());
             Log.info("Get data From MySQL Success!");
         }
         catch (SQLException ex) {

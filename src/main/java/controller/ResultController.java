@@ -44,7 +44,7 @@ public class ResultController extends HttpServlet {
                         + rs.getDouble(4)  + "&" +
                         + rs.getDouble(5));
             }
-            log.info("Get data From MySQL Success!");
+            log.info("Get data From MySQL Success! ----- Get Recommend Result");
         }
         catch (SQLException ex) {
             log.error(ex);

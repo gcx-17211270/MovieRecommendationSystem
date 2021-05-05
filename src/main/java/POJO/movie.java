@@ -15,6 +15,7 @@ public class movie {
     private int movieId;
     private String title;
     private String genres;
+    private int ratingsNum;
 
     public movie() {};
     public movie(int movieId, String title, String genres) {
@@ -23,12 +24,19 @@ public class movie {
         this.genres = genres;
     }
 
+    public movie(String title, String genres, int ratingsNum) {
+        this.title = title;
+        this.genres = genres;
+        this.ratingsNum = ratingsNum;
+    }
+
     @Override
     public String toString() {
         return "{" +
                 "\"movieId\":\"" + movieId +
                 "\", \"title\":\"" + title +
                 "\", \"genres\":\"" + genres +
+                "\", \"ratingsNum\":\"" + ratingsNum +
                 "\"}";
     }
 
