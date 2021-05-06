@@ -48,7 +48,7 @@ class UserBasedCF(object):
         for line in self.loadfile(filename):
             if line == 'userId,movieId,rating,timestamp':
                 continue
-            user, movie, rating, _ = line.split(',')
+            user, movie, rating, _ = line.split('::')
             # split the data by pivot
             if random.random() < pivot:
                 self.trainset.setdefault(user, {})
@@ -172,7 +172,7 @@ class UserBasedCF(object):
         popularity = popular_sum / (1.0 * rec_count)
 
         oldstdout = sys.stdout
-        file=open('result/userBasedCFResult_big.txt','w')
+        file=open('result/userBasedCFResult-1m.txt','w')
         sys.stdout=file
         print ('precision=%.4f\nrecall=%.4f\ncoverage=%.4f\npopularity=%.4f' %
                (precision, recall, coverage, popularity))
@@ -185,13 +185,13 @@ class UserBasedCF(object):
 
 
 if __name__ == '__main__':
-    ratingfile = os.path.join('data\\ml-latest', 'ratings.csv')
+    ratingfile = os.path.join('data/ml-1m', 'ratings.dat')
     usercf = UserBasedCF()
     usercf.generate_dataset(ratingfile)
     usercf.calc_user_sim()
     rec_result = usercf.evaluate()
 
-    file = open('result/userBasedCF_big.txt', 'w')
+    file = open('result/userBasedCF-1m.txt', 'w')
     sys.stdout = file
     print(rec_result)
     file.close()

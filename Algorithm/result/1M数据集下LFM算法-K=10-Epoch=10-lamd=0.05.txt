@@ -1,0 +1,39 @@
+python main.py
+**********************************************************************
+        This is LFM model trained on ml-1m with test_size = 0.30
+**********************************************************************
+
+LFM start...
+
+No model saved before.
+Train a new model...
+epoch: 0
+epoch: 1
+epoch: 2
+epoch: 3
+epoch: 4
+epoch: 5
+epoch: 6
+epoch: 7
+epoch: 8
+epoch: 9
+Train a new model success.
+The new model has saved success.
+
+Test recommendation system start...
+ steps(0), 0.01 seconds have spent..
+ steps(1000), 10.96 seconds have spent..
+ steps(2000), 21.92 seconds have spent..
+ steps(3000), 33.18 seconds have spent..
+ steps(4000), 44.64 seconds have spent..
+ steps(5000), 56.71 seconds have spent..
+ steps(6000), 68.97 seconds have spent..
+Test recommendation system success.
+total  step number is 6040
+total 69.45 seconds have spent
+
+precision=0.2228        recall=0.0448
+coverage=0.4074         popularity=6.1434
+
+total Main Function step number is 0
+total 646.35 seconds have spent

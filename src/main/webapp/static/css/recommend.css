@@ -12,7 +12,8 @@
 #Recommend-result {
     margin: auto;
     min-height: 220px;
-    /*overflow: auto;*/
+    max-height: 1000px;
+    overflow: auto;
 }
 #Result li {
     list-style: none;

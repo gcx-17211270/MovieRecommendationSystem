@@ -1,5 +1,7 @@
 
 Algorithm/data/
+Algorithm/data/result/rec/
+Algorithm/MF/model/
 
 # Compiled class file
 *.class

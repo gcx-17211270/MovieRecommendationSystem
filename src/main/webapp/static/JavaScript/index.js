@@ -111,14 +111,14 @@ function searchMovie() {
                 htmlContent += "" +
                     "<ul class=\"responsive-table\">" +
                     "<li class=\"table-header\">" +
-                    "<div class=\"col col-1\">movieId</div>" +
-                    "<div class=\"col col-2\">title</div>" +
-                    "<div class=\"col col-3\">genres</div>" +
+                    "<div style='flex-basis: 30%;'>movieId</div>" +
+                    "<div style='flex-basis: 50%;'>title</div>" +
+                    "<div style='flex-basis: 20%;'>genres</div>" +
                     "</li>" +
                     "<li class=\"table-row\">" +
-                    "    <div class=\"col col-1\">" + jsonArray[0].movieId + "</div>" +
-                    "    <div class=\"col col-2\">" + jsonArray[0].title + "</div>" +
-                    "    <div class=\"col col-3\">" + jsonArray[0].genres + "</div>" +
+                    "    <div style='flex-basis: 30%;'>" + jsonArray[0].movieId + "</div>" +
+                    "    <div style='flex-basis: 50%;'>" + jsonArray[0].title + "</div>" +
+                    "    <div style='flex-basis: 20%;'>" + jsonArray[0].genres + "</div>" +
                     "</li>" +
                     "</ul>";
 
@@ -129,39 +129,40 @@ function searchMovie() {
                     htmlContent += "" +
                         "<ul class=\"responsive-table\">" +
                         "<li class=\"table-header\">" +
-                        "<div class=\"col col-1\">userId</div>" +
-                        "<div class=\"col col-2\">rating</div>" +
-                        "<div class=\"col col-3\">timestamp</div>" +
+                        "<div style='flex-basis: 30%;'>userId</div>" +
+                        "<div style='flex-basis: 50%;'>rating</div>" +
+                        "<div style='flex-basis: 20%;'>timestamp</div>" +
                         "</li>";
                     for (i = 0; i < jsonArray.length; i++) {
                         htmlContent += "<li class=\"table-row\">" +
-                            "    <div class=\"col col-1\">" + jsonArray[i].userId + "</div>" +
-                            "    <div class=\"col col-2\">" + jsonArray[i].rating + "</div>" +
-                            "    <div class=\"col col-3\">" + jsonArray[i].timestamp + "</div>" +
+                            "    <div style='flex-basis: 30%;'>" + jsonArray[i].userId + "</div>" +
+                            "    <div style='flex-basis: 50%;'>" + jsonArray[i].rating + "</div>" +
+                            "    <div style='flex-basis: 20%;'>" + jsonArray[i].timestamp + "</div>" +
                             "</li>";
                     }
                     htmlContent +="</ul>";
                 }
-                if (textArray[2].trim() != "[]") {
+                /// 因为对于1M的数据集，不包含有tag信息，因而不再显示
+                /*if (textArray[2].trim() != "[]") {
                     htmlContent += "<p style='margin-left: 4rem;'>观看过的用户标识Tag情况如下：</p>";
                     jsonArray = JSON.parse(textArray[2]);
 
                     htmlContent += "" +
                         "<ul class=\"responsive-table\">" +
                         "<li class=\"table-header\">" +
-                        "<div class=\"col col-1\">userId</div>" +
-                        "<div class=\"col col-3\">tag</div>" +
-                        "<div class=\"col col-3\">timestamp</div>" +
+                        "<div style='flex-basis: 30%;'>userId</div>" +
+                        "<div style='flex-basis: 50%;'>tag</div>" +
+                        "<div style='flex-basis: 20%;'>timestamp</div>" +
                         "</li>";
                     for (i = 0; i < jsonArray.length; i++) {
                         htmlContent += "<li class=\"table-row\">" +
-                            "    <div class=\"col col-1\">" + jsonArray[i].userId + "</div>" +
-                            "    <div class=\"col col-2\">" + jsonArray[i].tag + "</div>" +
-                            "    <div class=\"col col-4\">" + jsonArray[i].timestamp + "</div>" +
+                            "    <div style='flex-basis: 30%;'>" + jsonArray[i].userId + "</div>" +
+                            "    <div style='flex-basis: 50%;'>" + jsonArray[i].tag + "</div>" +
+                            "    <div style='flex-basis: 20%;'>" + jsonArray[i].timestamp + "</div>" +
                             "</li>";
                     }
                     htmlContent +="</ul>";
-                }
+                }*/
                 document.getElementById("Recommend-result").innerHTML = htmlContent;
             }
             else if (textArray.length == 1) {
@@ -169,15 +170,15 @@ function searchMovie() {
                 var jsonArray = JSON.parse(textArray[0]);
                 htmlContent += "<ul class=\"responsive-table\">" +
                     "<li class=\"table-header\">" +
-                    "<div class=\"col col-1\">movieId</div>" +
-                    "<div class=\"col col-2\">title</div>" +
-                    "<div class=\"col col-3\">genres</div></li>" ;
+                    "<div style='flex-basis: 20%;'>movieId</div>" +
+                    "<div style='flex-basis: 40%;'>title</div>" +
+                    "<div style='flex-basis: 40%;'>genres</div></li>" ;
                 for (var i = 0; i < jsonArray.length; i++) {
                     htmlContent += "" +
                         "<li class=\"table-row\">" +
-                        "    <div class=\"col col-1\">" + jsonArray[i].movieId + "</div>" +
-                        "    <div class=\"col col-2\">" + jsonArray[i].title + "</div>" +
-                        "    <div class=\"col col-3\">" + jsonArray[i].genres + "</div>" +
+                        "    <div style='flex-basis: 20%;'>" + jsonArray[i].movieId + "</div>" +
+                        "    <div style='flex-basis: 40%;'>" + jsonArray[i].title + "</div>" +
+                        "    <div style='flex-basis: 40%;'>" + jsonArray[i].genres + "</div>" +
                         "</li>";
                 }
                 htmlContent += "</ul>";

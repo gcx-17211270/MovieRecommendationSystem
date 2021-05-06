@@ -50,10 +50,10 @@ class ItemBasedCF(object):
         testset_len = 0
 
         for line in self.loadfile(filename):
-            # user, movie, rating, _ = line.split('::')
+            user, movie, rating, _ = line.split('::')
             if line == 'userId,movieId,rating,timestamp':
                 continue
-            user, movie, rating, _ = line.split(',')
+            # user, movie, rating, _ = line.split(',')
             # split the data by pivot
             if random.random() < pivot:
                 self.trainset.setdefault(user, {})
@@ -171,7 +171,7 @@ class ItemBasedCF(object):
         popularity = popular_sum / (1.0 * rec_count)
 
         oldstdout = sys.stdout
-        file=open('result/itemBasedCFResult-New.txt','w')
+        file=open('result/itemBasedCFResult-1m.txt','w')
         sys.stdout=file
         print ('precision=%.4f\nrecall=%.4f\ncoverage=%.4f\npopularity=%.4f' %
                (precision, recall, coverage, popularity))
@@ -184,13 +184,13 @@ class ItemBasedCF(object):
 
 
 if __name__ == '__main__':
-    ratingfile = os.path.join('data', 'ml-latest', 'ratings.csv')
+    ratingfile = os.path.join('data', 'ml-1m', 'ratings.dat')
     itemcf = ItemBasedCF()
     itemcf.generate_dataset(ratingfile)
     itemcf.calc_movie_sim()
     rec_result = itemcf.evaluate()
 
-    file = open('result/itemBasedCF-New.txt', 'w')
+    file = open('result/itemBasedCF-1m.txt', 'w')
     sys.stdout = file
     print(rec_result)
     file.close()

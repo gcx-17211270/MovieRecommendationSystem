@@ -167,3 +167,7 @@ X
 (src/main/webapp/static/css/ref/table.css,4\f\4f370afa2bc9eaf149f0e524e2dad9a696fadd0f
 X
 (src/main/webapp/static/css/ref/radio.css,9\0\906df3f46653825c9a45cabffe975ef43d2cecc2
+V
+&src/main/webapp/static/html/index.html,f\9\f9c4b6a92d84175303c869410ea09afe0108b892
+X
+(src/main/webapp/static/css/ref/login.css,5\c\5c0b67b2eb2027319c77b6faaf118cee1a3c0476

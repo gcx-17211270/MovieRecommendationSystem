@@ -1,0 +1,300 @@
+python itemcf.py
+Similar movie number = 20
+Recommended movie number = 10
+loading data/ml-10M/ratings.dat(0)
+loading data/ml-10M/ratings.dat(100000)
+loading data/ml-10M/ratings.dat(200000)
+loading data/ml-10M/ratings.dat(300000)
+loading data/ml-10M/ratings.dat(400000)
+loading data/ml-10M/ratings.dat(500000)
+loading data/ml-10M/ratings.dat(600000)
+loading data/ml-10M/ratings.dat(700000)
+loading data/ml-10M/ratings.dat(800000)
+loading data/ml-10M/ratings.dat(900000)
+loading data/ml-10M/ratings.dat(1000000)
+loading data/ml-10M/ratings.dat(1100000)
+loading data/ml-10M/ratings.dat(1200000)
+loading data/ml-10M/ratings.dat(1300000)
+loading data/ml-10M/ratings.dat(1400000)
+loading data/ml-10M/ratings.dat(1500000)
+loading data/ml-10M/ratings.dat(1600000)
+loading data/ml-10M/ratings.dat(1700000)
+loading data/ml-10M/ratings.dat(1800000)
+loading data/ml-10M/ratings.dat(1900000)
+loading data/ml-10M/ratings.dat(2000000)
+loading data/ml-10M/ratings.dat(2100000)
+loading data/ml-10M/ratings.dat(2200000)
+loading data/ml-10M/ratings.dat(2300000)
+loading data/ml-10M/ratings.dat(2400000)
+loading data/ml-10M/ratings.dat(2500000)
+loading data/ml-10M/ratings.dat(2600000)
+loading data/ml-10M/ratings.dat(2700000)
+loading data/ml-10M/ratings.dat(2800000)
+loading data/ml-10M/ratings.dat(2900000)
+loading data/ml-10M/ratings.dat(3000000)
+loading data/ml-10M/ratings.dat(3100000)
+loading data/ml-10M/ratings.dat(3200000)
+loading data/ml-10M/ratings.dat(3300000)
+loading data/ml-10M/ratings.dat(3400000)
+loading data/ml-10M/ratings.dat(3500000)
+loading data/ml-10M/ratings.dat(3600000)
+loading data/ml-10M/ratings.dat(3700000)
+loading data/ml-10M/ratings.dat(3800000)
+loading data/ml-10M/ratings.dat(3900000)
+loading data/ml-10M/ratings.dat(4000000)
+loading data/ml-10M/ratings.dat(4100000)
+loading data/ml-10M/ratings.dat(4200000)
+loading data/ml-10M/ratings.dat(4300000)
+loading data/ml-10M/ratings.dat(4400000)
+loading data/ml-10M/ratings.dat(4500000)
+loading data/ml-10M/ratings.dat(4600000)
+loading data/ml-10M/ratings.dat(4700000)
+loading data/ml-10M/ratings.dat(4800000)
+loading data/ml-10M/ratings.dat(4900000)
+loading data/ml-10M/ratings.dat(5000000)
+loading data/ml-10M/ratings.dat(5100000)
+loading data/ml-10M/ratings.dat(5200000)
+loading data/ml-10M/ratings.dat(5300000)
+loading data/ml-10M/ratings.dat(5400000)
+loading data/ml-10M/ratings.dat(5500000)
+loading data/ml-10M/ratings.dat(5600000)
+loading data/ml-10M/ratings.dat(5700000)
+loading data/ml-10M/ratings.dat(5800000)
+loading data/ml-10M/ratings.dat(5900000)
+loading data/ml-10M/ratings.dat(6000000)
+loading data/ml-10M/ratings.dat(6100000)
+loading data/ml-10M/ratings.dat(6200000)
+loading data/ml-10M/ratings.dat(6300000)
+loading data/ml-10M/ratings.dat(6400000)
+loading data/ml-10M/ratings.dat(6500000)
+loading data/ml-10M/ratings.dat(6600000)
+loading data/ml-10M/ratings.dat(6700000)
+loading data/ml-10M/ratings.dat(6800000)
+loading data/ml-10M/ratings.dat(6900000)
+loading data/ml-10M/ratings.dat(7000000)
+loading data/ml-10M/ratings.dat(7100000)
+loading data/ml-10M/ratings.dat(7200000)
+loading data/ml-10M/ratings.dat(7300000)
+loading data/ml-10M/ratings.dat(7400000)
+loading data/ml-10M/ratings.dat(7500000)
+loading data/ml-10M/ratings.dat(7600000)
+loading data/ml-10M/ratings.dat(7700000)
+loading data/ml-10M/ratings.dat(7800000)
+loading data/ml-10M/ratings.dat(7900000)
+loading data/ml-10M/ratings.dat(8000000)
+loading data/ml-10M/ratings.dat(8100000)
+loading data/ml-10M/ratings.dat(8200000)
+loading data/ml-10M/ratings.dat(8300000)
+loading data/ml-10M/ratings.dat(8400000)
+loading data/ml-10M/ratings.dat(8500000)
+loading data/ml-10M/ratings.dat(8600000)
+loading data/ml-10M/ratings.dat(8700000)
+loading data/ml-10M/ratings.dat(8800000)
+loading data/ml-10M/ratings.dat(8900000)
+loading data/ml-10M/ratings.dat(9000000)
+loading data/ml-10M/ratings.dat(9100000)
+loading data/ml-10M/ratings.dat(9200000)
+loading data/ml-10M/ratings.dat(9300000)
+loading data/ml-10M/ratings.dat(9400000)
+loading data/ml-10M/ratings.dat(9500000)
+loading data/ml-10M/ratings.dat(9600000)
+loading data/ml-10M/ratings.dat(9700000)
+loading data/ml-10M/ratings.dat(9800000)
+loading data/ml-10M/ratings.dat(9900000)
+loading data/ml-10M/ratings.dat(10000000)
+load data/ml-10M/ratings.dat succ
+split training set and test set succ
+train set = 7000292
+test set = 2999762
+counting movies number and popularity...
+count movies number and popularity succ
+total movie number = 10640
+building co-rated users matrix...
+build co-rated users matrix succ
+calculating movie similarity matrix...
+calculating movie similarity factor(2000000)
+calculating movie similarity factor(4000000)
+calculating movie similarity factor(6000000)
+calculating movie similarity factor(8000000)
+calculating movie similarity factor(10000000)
+calculating movie similarity factor(12000000)
+calculating movie similarity factor(14000000)
+calculating movie similarity factor(16000000)
+calculating movie similarity factor(18000000)
+calculating movie similarity factor(20000000)
+calculating movie similarity factor(22000000)
+calculating movie similarity factor(24000000)
+calculating movie similarity factor(26000000)
+calculating movie similarity factor(28000000)
+calculating movie similarity factor(30000000)
+calculating movie similarity factor(32000000)
+calculating movie similarity factor(34000000)
+calculating movie similarity factor(36000000)
+calculating movie similarity factor(38000000)
+calculating movie similarity factor(40000000)
+calculating movie similarity factor(42000000)
+calculating movie similarity factor(44000000)
+calculating movie similarity factor(46000000)
+calculating movie similarity factor(48000000)
+calculating movie similarity factor(50000000)
+calculating movie similarity factor(52000000)
+calculating movie similarity factor(54000000)
+calculating movie similarity factor(56000000)
+calculating movie similarity factor(58000000)
+calculating movie similarity factor(60000000)
+calculating movie similarity factor(62000000)
+calculating movie similarity factor(64000000)
+calculating movie similarity factor(66000000)
+calculating movie similarity factor(68000000)
+calculating movie similarity factor(70000000)
+calculating movie similarity factor(72000000)
+calculating movie similarity factor(74000000)
+calculating movie similarity factor(76000000)
+calculating movie similarity factor(78000000)
+calculating movie similarity factor(80000000)
+calculating movie similarity factor(82000000)
+calculating movie similarity factor(84000000)
+calculate movie similarity matrix(similarity factor) succ
+Total similarity factor number = 85861922
+Evaluation start...
+recommended for 0 users
+recommended for 500 users
+recommended for 1000 users
+recommended for 1500 users
+recommended for 2000 users
+recommended for 2500 users
+recommended for 3000 users
+recommended for 3500 users
+recommended for 4000 users
+recommended for 4500 users
+recommended for 5000 users
+recommended for 5500 users
+recommended for 6000 users
+recommended for 6500 users
+recommended for 7000 users
+recommended for 7500 users
+recommended for 8000 users
+recommended for 8500 users
+recommended for 9000 users
+recommended for 9500 users
+recommended for 10000 users
+recommended for 10500 users
+recommended for 11000 users
+recommended for 11500 users
+recommended for 12000 users
+recommended for 12500 users
+recommended for 13000 users
+recommended for 13500 users
+recommended for 14000 users
+recommended for 14500 users
+recommended for 15000 users
+recommended for 15500 users
+recommended for 16000 users
+recommended for 16500 users
+recommended for 17000 users
+recommended for 17500 users
+recommended for 18000 users
+recommended for 18500 users
+recommended for 19000 users
+recommended for 19500 users
+recommended for 20000 users
+recommended for 20500 users
+recommended for 21000 users
+recommended for 21500 users
+recommended for 22000 users
+recommended for 22500 users
+recommended for 23000 users
+recommended for 23500 users
+recommended for 24000 users
+recommended for 24500 users
+recommended for 25000 users
+recommended for 25500 users
+recommended for 26000 users
+recommended for 26500 users
+recommended for 27000 users
+recommended for 27500 users
+recommended for 28000 users
+recommended for 28500 users
+recommended for 29000 users
+recommended for 29500 users
+recommended for 30000 users
+recommended for 30500 users
+recommended for 31000 users
+recommended for 31500 users
+recommended for 32000 users
+recommended for 32500 users
+recommended for 33000 users
+recommended for 33500 users
+recommended for 34000 users
+recommended for 34500 users
+recommended for 35000 users
+recommended for 35500 users
+recommended for 36000 users
+recommended for 36500 users
+recommended for 37000 users
+recommended for 37500 users
+recommended for 38000 users
+recommended for 38500 users
+recommended for 39000 users
+recommended for 39500 users
+recommended for 40000 users
+recommended for 40500 users
+recommended for 41000 users
+recommended for 41500 users
+recommended for 42000 users
+recommended for 42500 users
+recommended for 43000 users
+recommended for 43500 users
+recommended for 44000 users
+recommended for 44500 users
+recommended for 45000 users
+recommended for 45500 users
+recommended for 46000 users
+recommended for 46500 users
+recommended for 47000 users
+recommended for 47500 users
+recommended for 48000 users
+recommended for 48500 users
+recommended for 49000 users
+recommended for 49500 users
+recommended for 50000 users
+recommended for 50500 users
+recommended for 51000 users
+recommended for 51500 users
+recommended for 52000 users
+recommended for 52500 users
+recommended for 53000 users
+recommended for 53500 users
+recommended for 54000 users
+recommended for 54500 users
+recommended for 55000 users
+recommended for 55500 users
+recommended for 56000 users
+recommended for 56500 users
+recommended for 57000 users
+recommended for 57500 users
+recommended for 58000 users
+recommended for 58500 users
+recommended for 59000 users
+recommended for 59500 users
+recommended for 60000 users
+recommended for 60500 users
+recommended for 61000 users
+recommended for 61500 users
+recommended for 62000 users
+recommended for 62500 users
+recommended for 63000 users
+recommended for 63500 users
+recommended for 64000 users
+recommended for 64500 users
+recommended for 65000 users
+recommended for 65500 users
+recommended for 66000 users
+recommended for 66500 users
+recommended for 67000 users
+recommended for 67500 users
+recommended for 68000 users
+recommended for 68500 users
+recommended for 69000 users
+recommended for 69500 users
+precision=0.3659    recall=0.0852    coverage=0.1593    popularity=9.4144

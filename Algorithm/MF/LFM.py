@@ -146,21 +146,23 @@ class LFM:
 
             filepath = os.path.join('..\\result', self.model_name)
             print(filepath)
-            # 这段将P、Q矩阵输出重定向的txt文件中
+            # 这段将P、Q矩阵输出重定向的txt文件�?
+            ''' 
             oldStdout = sys.stdout
             try:
-                file = open(filepath + '-P.txt', 'w')
+                file = open(filepath + '-P-10m.txt', 'w')
                 sys.stdout = file
                 print(self.P)
                 file.close()
 
-                file = open(filepath + '-Q.txt', 'w')
+                file = open(filepath + '-Q-1m.txt', 'w')
                 sys.stdout = file
                 print(self.Q)
                 file.close()
             except IOError:
                 print(IOError)
             sys.stdout = oldStdout
+            '''
             print('User origin similarity model has saved before.\nLoad model success...\n')
         except OSError:
             print('No model saved before.\nTrain a new model...')
@@ -234,7 +236,7 @@ class LFM:
 
             movie_json[user] = movie_arr
         old_stdout = sys.stdout
-        file = open("../result/LFM.txt", "w")
+        file = open("../result/LFM-1m-0.05.txt", "w")
         sys.stdout = file
         print(movie_json)
         file.close()
@@ -248,7 +250,7 @@ class LFM:
         test_time.finish()
 
         oldstdout = sys.stdout
-        file=open('../result/LFMResult.txt','w')
+        file=open('../result/LFMResult-1m-0.05.txt','w')
         sys.stdout=file
         print ('precision=%.4f\nrecall=%.4f\ncoverage=%.4f\npopularity=%.4f' %
                (precision, recall, coverage, popularity))

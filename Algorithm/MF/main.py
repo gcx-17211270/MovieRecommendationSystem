@@ -1,7 +1,4 @@
-# -*- coding = utf-8 -*-
-"""
-
-"""
+# coding=UTF-8
 
 import utils
 
@@ -29,7 +26,7 @@ def run_model(model_name, dataset_name, test_size=0.3, clean=False):
     model_manager.clean_workspace(clean)
     if model_name == 'LFM':
         # K, epochs, alpha, lamb, n_rec_movie
-        model = LFM(10, 30, 0.1, 0.01, 10)
+        model = LFM(10, 10, 0.05, 0.01, 10)
         """
         epochs=30
         precision=0.3151	recall=0.0632	
@@ -49,12 +46,6 @@ def run_model(model_name, dataset_name, test_size=0.3, clean=False):
     # recommend_test(model, [1, 100, 233])
     model.test(testset)
 
-
-"""用于给特定用户产生推荐结果"""
-"""recommend直接返回推荐结果列表"""
-"""movie_arr返回推荐结果以及推荐策略得分数组（数组内容为元组）"""
-
-
 def recommend_test(model, user_list):
     for user in user_list:
         recommend, movie_arr = model.recommend(str(user))
@@ -65,7 +56,7 @@ def recommend_test(model, user_list):
 
 if __name__ == '__main__':
     main_time = LogTime(words="Main Function")
-    dataset_name = 'ml-latest-small'
+    dataset_name = 'ml-1m'
     model_type = 'LFM'
     test_size = 0.3
     run_model(model_type, dataset_name, test_size, False)
